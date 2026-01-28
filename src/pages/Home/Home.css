@@ -1,0 +1,378 @@
+.home {
+  padding-bottom: 40px;
+}
+
+/* Hero Banner */
+.home__hero {
+  background: linear-gradient(to bottom, #232f3e 0%, #131921 100%);
+  padding: 60px 20px;
+  text-align: center;
+  margin-bottom: -100px;
+  padding-bottom: 160px;
+}
+
+.home__hero-content h1 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.home__hero-content p {
+  color: #ccc;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.home__hero-content .btn {
+  padding: 12px 30px;
+  font-size: 16px;
+}
+
+/* Used Electronics Banner */
+.home__used-banner {
+  margin-bottom: 20px;
+}
+
+.used-banner {
+  display: block;
+  position: relative;
+  background: linear-gradient(135deg, #1a472a 0%, #2d5a3d 50%, #1a472a 100%);
+  border: 3px solid #4CAF50;
+  border-radius: 12px;
+  padding: 25px 30px;
+  color: #fff;
+  text-decoration: none;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(76, 175, 80, 0.3);
+}
+
+.used-banner:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(76, 175, 80, 0.4);
+  border-color: #66BB6A;
+}
+
+.used-banner__badge {
+  position: absolute;
+  top: 0;
+  right: 30px;
+  background: linear-gradient(135deg, #ff6b6b 0%, #ee5a5a 100%);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 8px 20px;
+  border-radius: 0 0 8px 8px;
+  letter-spacing: 1px;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+.used-banner__content {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 15px;
+}
+
+.used-banner__icon {
+  font-size: 60px;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
+}
+
+.used-banner__text h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.used-banner__text p {
+  font-size: 16px;
+  opacity: 0.9;
+  margin-bottom: 8px;
+}
+
+.used-banner__cta {
+  display: inline-block;
+  background-color: #ffd814;
+  color: #0f1111;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  transition: background-color 0.2s;
+}
+
+.used-banner:hover .used-banner__cta {
+  background-color: #f7ca00;
+}
+
+.used-banner__items {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+  opacity: 0.85;
+  flex-wrap: wrap;
+}
+
+.used-banner__items span {
+  white-space: nowrap;
+}
+
+/* Categories Grid */
+.home__categories {
+  margin-bottom: 20px;
+}
+
+.home__categories-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.category-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.category-card__title {
+  font-size: 21px;
+  font-weight: 700;
+  color: #0f1111;
+  margin-bottom: 15px;
+}
+
+.category-card__image-link {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.category-card__image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.category-card__links {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.category-card__link {
+  font-size: 13px;
+  color: #007185;
+}
+
+.category-card__link:hover {
+  color: #c45500;
+  text-decoration: underline;
+}
+
+.category-card__see-more {
+  font-size: 13px;
+  color: #007185;
+}
+
+.category-card__see-more:hover {
+  color: #c45500;
+  text-decoration: underline;
+}
+
+/* Section */
+.home__section {
+  margin-bottom: 30px;
+}
+
+.home__section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.home__section-title {
+  font-size: 21px;
+  font-weight: 700;
+  color: #0f1111;
+}
+
+.home__section-link {
+  font-size: 14px;
+  color: #007185;
+}
+
+.home__section-link:hover {
+  color: #c45500;
+  text-decoration: underline;
+}
+
+.home__products-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 15px;
+  padding-bottom: 15px;
+  scrollbar-width: thin;
+}
+
+.home__products-scroll::-webkit-scrollbar {
+  height: 8px;
+}
+
+.home__products-scroll::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.home__products-scroll::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
+
+.home__product-item {
+  flex: 0 0 280px;
+}
+
+/* Sign In Banner */
+.home__signin-banner {
+  margin-bottom: 20px;
+}
+
+.home__signin-banner .card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+}
+
+.home__signin-banner h3 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* Crypto Banner */
+.home__crypto-banner {
+  margin-bottom: 30px;
+}
+
+.crypto-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(135deg, #f7931a 0%, #ff9900 100%);
+  padding: 30px 40px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.crypto-banner__content h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.crypto-banner__content p {
+  font-size: 14px;
+  margin-bottom: 15px;
+  opacity: 0.9;
+}
+
+.crypto-banner__content .btn {
+  background-color: #fff;
+  color: #f7931a;
+  border: none;
+}
+
+.crypto-banner__content .btn:hover {
+  background-color: #f5f5f5;
+}
+
+.crypto-banner__icon {
+  font-size: 80px;
+  opacity: 0.3;
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+  .home__categories-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .home__hero-content h1 {
+    font-size: 32px;
+  }
+  
+  .home__categories-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .category-card__links {
+    grid-template-columns: 1fr;
+  }
+  
+  .crypto-banner {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .crypto-banner__icon {
+    margin-top: 20px;
+    font-size: 60px;
+  }
+
+  .used-banner {
+    padding: 20px;
+  }
+
+  .used-banner__content {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+
+  .used-banner__text h2 {
+    font-size: 24px;
+  }
+
+  .used-banner__icon {
+    font-size: 50px;
+  }
+
+  .used-banner__items {
+    justify-content: center;
+  }
+
+  .used-banner__badge {
+    right: 15px;
+    padding: 6px 12px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .home__hero {
+    padding: 40px 15px;
+    margin-bottom: -60px;
+    padding-bottom: 100px;
+  }
+  
+  .home__hero-content h1 {
+    font-size: 24px;
+  }
+  
+  .home__product-item {
+    flex: 0 0 200px;
+  }
+}

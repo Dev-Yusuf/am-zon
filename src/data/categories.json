@@ -1,0 +1,94 @@
+[
+  {
+    "id": "electronics",
+    "name": "Electronics",
+    "parentId": null,
+    "image": "https://images.unsplash.com/photo-1498049794561-7780e7231661?w=300",
+    "subcategories": [
+      { "id": "phones", "name": "Cell Phones & Accessories" },
+      { "id": "headphones", "name": "Headphones" },
+      { "id": "tv", "name": "Television & Video" },
+      { "id": "cameras", "name": "Camera & Photo" },
+      { "id": "wearables", "name": "Wearable Technology" },
+      { "id": "gaming", "name": "Video Games" }
+    ]
+  },
+  {
+    "id": "computers",
+    "name": "Computers",
+    "parentId": null,
+    "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=300",
+    "subcategories": [
+      { "id": "laptops", "name": "Laptops" },
+      { "id": "desktops", "name": "Desktop Computers" },
+      { "id": "monitors", "name": "Monitors" },
+      { "id": "accessories", "name": "Computer Accessories" },
+      { "id": "networking", "name": "Networking Products" }
+    ]
+  },
+  {
+    "id": "fashion",
+    "name": "Fashion",
+    "parentId": null,
+    "image": "https://images.unsplash.com/photo-1445205170230-053b83016050?w=300",
+    "subcategories": [
+      { "id": "clothing", "name": "Clothing" },
+      { "id": "shoes", "name": "Shoes" },
+      { "id": "jewelry", "name": "Jewelry" },
+      { "id": "watches", "name": "Watches" },
+      { "id": "bags", "name": "Handbags & Wallets" }
+    ]
+  },
+  {
+    "id": "home",
+    "name": "Home & Kitchen",
+    "parentId": null,
+    "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=300",
+    "subcategories": [
+      { "id": "kitchen", "name": "Kitchen & Dining" },
+      { "id": "appliances", "name": "Appliances" },
+      { "id": "furniture", "name": "Furniture" },
+      { "id": "bedding", "name": "Bedding" },
+      { "id": "decor", "name": "Home Décor" }
+    ]
+  },
+  {
+    "id": "books",
+    "name": "Books",
+    "parentId": null,
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=300",
+    "subcategories": [
+      { "id": "fiction", "name": "Fiction" },
+      { "id": "non-fiction", "name": "Non-Fiction" },
+      { "id": "business", "name": "Business & Money" },
+      { "id": "self-help", "name": "Self-Help" },
+      { "id": "children", "name": "Children's Books" }
+    ]
+  },
+  {
+    "id": "toys",
+    "name": "Toys & Games",
+    "parentId": null,
+    "image": "https://images.unsplash.com/photo-1558060370-d644479cb6f7?w=300",
+    "subcategories": [
+      { "id": "building", "name": "Building Toys" },
+      { "id": "action", "name": "Action Figures" },
+      { "id": "dolls", "name": "Dolls & Accessories" },
+      { "id": "games", "name": "Games & Puzzles" },
+      { "id": "outdoor", "name": "Outdoor Play" }
+    ]
+  },
+  {
+    "id": "sports",
+    "name": "Sports & Outdoors",
+    "parentId": null,
+    "image": "https://images.unsplash.com/photo-1461896836934- voices?w=300",
+    "subcategories": [
+      { "id": "exercise", "name": "Exercise & Fitness" },
+      { "id": "outdoor-rec", "name": "Outdoor Recreation" },
+      { "id": "sports-gear", "name": "Sports Equipment" },
+      { "id": "cycling", "name": "Cycling" },
+      { "id": "camping", "name": "Camping & Hiking" }
+    ]
+  }
+]

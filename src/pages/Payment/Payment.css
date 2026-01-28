@@ -1,0 +1,517 @@
+.payment {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.payment__loading {
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+}
+
+.payment__content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Success State */
+.payment__success {
+  text-align: center;
+  padding: 40px;
+}
+
+.success-icon {
+  width: 80px;
+  height: 80px;
+  background-color: #067d62;
+  color: #fff;
+  font-size: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+
+.payment__success h2 {
+  font-size: 28px;
+  color: #067d62;
+  margin-bottom: 10px;
+}
+
+.payment__success p {
+  font-size: 16px;
+  color: #565959;
+  margin-bottom: 10px;
+}
+
+.order-number {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.status-note {
+  margin-bottom: 15px;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  background-color: #fef8e7;
+  border: 1px solid #f0c14b;
+  border-radius: 4px;
+  color: #b77400;
+  font-weight: 500;
+}
+
+.info-text {
+  font-size: 14px;
+  color: #565959;
+  max-width: 500px;
+  margin: 0 auto 25px;
+}
+
+.success-actions {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+/* Payment Header */
+.payment__header {
+  margin-bottom: 20px;
+}
+
+.payment__header h1 {
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.order-info {
+  color: #565959;
+  font-size: 14px;
+}
+
+/* Main Layout */
+.payment__main {
+  display: grid;
+  grid-template-columns: 1fr 350px;
+  gap: 20px;
+  align-items: start;
+}
+
+/* BTC Section */
+.payment__btc-section {
+  padding: 25px;
+}
+
+.btc-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.btc-logo {
+  font-size: 48px;
+  color: #f7931a;
+  background: linear-gradient(135deg, #fff8e7 0%, #fff0cc 100%);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #f7931a;
+}
+
+.btc-title h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #0f1111;
+  margin-bottom: 5px;
+}
+
+.btc-title p {
+  color: #565959;
+  font-size: 14px;
+}
+
+/* Amount Section */
+.btc-amount-section {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+}
+
+.amount-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.amount-row:last-of-type {
+  margin-bottom: 0;
+}
+
+.amount-label {
+  font-size: 14px;
+  color: #565959;
+}
+
+.amount-usd {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.amount-usd .price-whole {
+  font-size: 24px;
+}
+
+.btc-row {
+  padding-top: 10px;
+  border-top: 1px dashed #ddd;
+  margin-top: 10px;
+}
+
+.amount-btc {
+  font-size: 24px;
+  font-weight: 700;
+  color: #f7931a;
+}
+
+.rate-note {
+  font-size: 12px;
+  color: #888;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Wallet Address Section */
+.btc-wallet-section {
+  margin-bottom: 25px;
+}
+
+.btc-wallet-section h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.wallet-address-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.wallet-address {
+  flex: 1;
+  background-color: #f7f7f7;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  font-family: monospace;
+  font-size: 14px;
+  word-break: break-all;
+  user-select: all;
+}
+
+.copy-btn {
+  padding: 15px 20px;
+  background-color: #232f3e;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s;
+}
+
+.copy-btn:hover {
+  background-color: #37475a;
+}
+
+.copy-btn.copied {
+  background-color: #067d62;
+}
+
+.wallet-qr {
+  display: flex;
+  justify-content: center;
+}
+
+.qr-placeholder {
+  width: 150px;
+  height: 150px;
+  background-color: #f7f7f7;
+  border: 2px dashed #ddd;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.qr-icon {
+  font-size: 40px;
+  opacity: 0.3;
+}
+
+.qr-text {
+  font-size: 14px;
+  color: #565959;
+}
+
+.qr-note {
+  font-size: 11px;
+  color: #888;
+}
+
+/* Instructions */
+.btc-instructions {
+  margin-bottom: 25px;
+  padding: 20px;
+  background-color: #f0f7ff;
+  border-radius: 8px;
+  border-left: 4px solid #007185;
+}
+
+.btc-instructions h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #007185;
+}
+
+.btc-instructions ol {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.btc-instructions li {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 8px;
+  list-style-type: decimal;
+}
+
+/* Warning */
+.btc-warning {
+  display: flex;
+  gap: 15px;
+  padding: 15px;
+  background-color: #fef8e7;
+  border: 1px solid #f0c14b;
+  border-radius: 8px;
+  margin-bottom: 25px;
+}
+
+.warning-icon {
+  font-size: 24px;
+}
+
+.warning-text {
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+/* Confirm Button */
+.confirm-payment-btn {
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* Confirmation Form */
+.payment-confirmation-form {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 8px;
+  border: 2px solid #f7931a;
+}
+
+.payment-confirmation-form h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.payment-confirmation-form p {
+  font-size: 14px;
+  color: #565959;
+  margin-bottom: 15px;
+}
+
+.form-textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.confirmation-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.confirmation-actions .btn {
+  flex: 1;
+  padding: 12px;
+}
+
+/* Order Summary Sidebar */
+.payment__summary {
+  padding: 20px;
+  position: sticky;
+  top: 120px;
+}
+
+.payment__summary h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.summary-items {
+  margin-bottom: 15px;
+}
+
+.summary-item {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.summary-item:last-child {
+  border-bottom: none;
+}
+
+.summary-item img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.summary-item-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.summary-item-title {
+  font-size: 13px;
+  line-height: 1.3;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.summary-item-qty {
+  font-size: 12px;
+  color: #565959;
+}
+
+.summary-item-price {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.summary-divider {
+  height: 1px;
+  background-color: #ddd;
+  margin: 15px 0;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.summary-total {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.total-amount {
+  color: #b12704;
+}
+
+.summary-btc {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  background-color: #fff8e7;
+  padding: 10px;
+  border-radius: 4px;
+  margin: -5px;
+}
+
+.summary-btc .btc-amount {
+  color: #f7931a;
+  font-weight: 700;
+}
+
+.shipping-info h4 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.shipping-info p {
+  font-size: 13px;
+  color: #565959;
+  line-height: 1.5;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .payment__main {
+    grid-template-columns: 1fr;
+  }
+
+  .payment__summary {
+    position: static;
+    order: -1;
+  }
+}
+
+@media (max-width: 600px) {
+  .btc-header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .wallet-address-container {
+    flex-direction: column;
+  }
+
+  .copy-btn {
+    width: 100%;
+  }
+
+  .success-actions {
+    flex-direction: column;
+  }
+
+  .success-actions .btn {
+    width: 100%;
+  }
+}

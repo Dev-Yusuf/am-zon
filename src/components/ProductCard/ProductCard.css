@@ -1,0 +1,206 @@
+.product-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  transition: box-shadow 0.2s;
+  height: 100%;
+}
+
+.product-card:hover {
+  box-shadow: 0 2px 5px rgba(15, 17, 17, 0.15);
+}
+
+.product-card__image-container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.product-card__image {
+  max-width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+}
+
+.product-card__badge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #cc0c39;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 4px 8px;
+  border-radius: 2px;
+}
+
+.product-card__info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-card__title {
+  font-size: 14px;
+  font-weight: 400;
+  color: #0f1111;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+
+.product-card:hover .product-card__title {
+  color: #c45500;
+}
+
+.product-card__rating {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.product-card__rating .stars {
+  display: flex;
+  color: #de7921;
+  font-size: 14px;
+}
+
+.product-card__rating .star {
+  margin-right: 1px;
+}
+
+.product-card__rating .star.filled {
+  color: #de7921;
+}
+
+.product-card__rating .star.empty {
+  color: #ccc;
+}
+
+.product-card__rating .rating-count {
+  font-size: 13px;
+  color: #007185;
+}
+
+.product-card__price-section {
+  margin-bottom: 8px;
+}
+
+.product-card__savings {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.savings-badge {
+  background-color: #cc0c39;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 2px;
+}
+
+.limited-deal {
+  color: #cc0c39;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.product-card__price {
+  color: #0f1111;
+}
+
+.product-card__price .price-symbol {
+  font-size: 13px;
+  vertical-align: top;
+  position: relative;
+  top: 2px;
+}
+
+.product-card__price .price-whole {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.product-card__price .price-fraction {
+  font-size: 13px;
+  vertical-align: top;
+  position: relative;
+  top: 2px;
+}
+
+.product-card__original-price {
+  font-size: 13px;
+  color: #565959;
+}
+
+.product-card__original-price .strikethrough {
+  text-decoration: line-through;
+}
+
+.product-card__prime {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-top: auto;
+}
+
+.prime-badge {
+  background: linear-gradient(to bottom, #232f3e, #131921);
+  color: #00a8e1;
+  font-size: 11px;
+  font-weight: 700;
+  font-style: italic;
+  padding: 2px 6px;
+  border-radius: 2px;
+}
+
+.prime-delivery {
+  font-size: 12px;
+  color: #0f1111;
+}
+
+.product-card__shipping {
+  font-size: 12px;
+  color: #0f1111;
+  margin-top: auto;
+}
+
+/* Compact variant */
+.product-card--compact {
+  padding: 10px;
+}
+
+.product-card--compact .product-card__image {
+  max-height: 120px;
+}
+
+.product-card--compact .product-card__title {
+  font-size: 13px;
+  -webkit-line-clamp: 2;
+  margin-bottom: 6px;
+}
+
+.product-card--compact .product-card__price .price-whole {
+  font-size: 18px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .product-card__price .price-whole {
+    font-size: 22px;
+  }
+}

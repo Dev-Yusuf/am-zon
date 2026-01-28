@@ -1,0 +1,2177 @@
+[
+  {
+    "id": "prod_001",
+    "title": "Apple iPhone 15 Pro Max - 256GB - Natural Titanium",
+    "description": "iPhone 15 Pro Max features a strong and light aerospace-grade titanium design with a textured matte-glass back. It also features a Ceramic Shield front that's tougher than any smartphone glass.",
+    "images": [
+      "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=500",
+      "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?w=500"
+    ],
+    "price": 1199.00,
+    "originalPrice": 1299.00,
+    "rating": 4.7,
+    "reviewCount": 15234,
+    "category": "electronics",
+    "subcategory": "phones",
+    "brand": "Apple",
+    "stock": 50,
+    "prime": true,
+    "freeShipping": true,
+    "deliveryDays": 2,
+    "variations": [
+      { "type": "color", "options": ["Natural Titanium", "Blue Titanium", "White Titanium", "Black Titanium"] },
+      { "type": "storage", "options": ["256GB", "512GB", "1TB"] }
+    ],
+    "features": [
+      "6.7-inch Super Retina XDR display",
+      "A17 Pro chip with 6-core GPU",
+      "Pro camera system with 48MP Main",
+      "Action button",
+      "USB-C connector"
+    ],
+    "deal": true
+  },
+  {
+    "id": "prod_002",
+    "title": "Samsung Galaxy S24 Ultra 5G - 512GB - Titanium Black",
+    "description": "Meet Galaxy S24 Ultra, the ultimate form of Galaxy Ultra with a new titanium exterior and a 200MP camera. It's an iconic Icons design forged from titanium.",
+    "images": [
+      "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=500",
+      "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=500"
+    ],
+    "price": 1299.99,
+    "originalPrice": 1419.99,
+    "rating": 4.6,
+    "reviewCount": 8567,
+    "category": "electronics",
+    "subcategory": "phones",
+    "brand": "Samsung",
+    "stock": 35,
+    "prime": true,
+    "freeShipping": true,
+    "deliveryDays": 2,
+    "variations": [
+      { "type": "color", "options": ["Titanium Black", "Titanium Gray", "Titanium Violet", "Titanium Yellow"] },
+      { "type": "storage", "options": ["256GB", "512GB", "1TB"] }
+    ],
+    "features": [
+      "6.8-inch Dynamic AMOLED 2X",
+      "Snapdragon 8 Gen 3 processor",
+      "200MP camera with AI features",
+      "S Pen included",
+      "5000mAh battery"
+    ],
+    "deal": true
+  },
+  {
+    "id": "prod_003",
+    "title": "Sony WH-1000XM5 Wireless Noise Canceling Headphones",
+    "description": "Industry-leading noise cancellation-Auto NC Optimizer automatically optimizes noise canceling based on your wearing conditions and environment.",
+    "images": [
+      "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=500",
+      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=500"
+    ],
+    "price": 348.00,
+    "originalPrice": 399.99,
+    "rating": 4.8,
+    "reviewCount": 23456,
+    "category": "electronics",
+    "subcategory": "headphones",
+    "brand": "Sony",
+    "stock": 120,
+    "prime": true,
+    "freeShipping": true,
+    "deliveryDays": 1,
+    "variations": [
+      { "type": "color", "options": ["Black", "Silver", "Midnight Blue"] }
+    ],
+    "features": [
+      "Industry-leading noise cancellation",
+      "30-hour battery life",
+      "Crystal clear hands-free calling",
+      "Multipoint connection",
+      "Touch sensor controls"
+    ],
+    "deal": true
+  },
+  {
+    "id": "prod_004",
+    "title": "Apple MacBook Pro 16\" M3 Max - 36GB RAM - 1TB SSD",
+    "description": "The most advanced Mac laptops ever. Mind-blowing performance with M3 Pro or M3 Max, plus a stunning Liquid Retina XDR display.",
+    "images": [
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500",
+      "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?w=500"
+    ],
+    "price": 3499.00,
+    "originalPrice": 3999.00,
+    "rating": 4.9,
+    "reviewCount": 4521,
+    "category": "computers",
+    "subcategory": "laptops",
+    "brand": "Apple",
+    "stock": 25,
+    "prime": true,
+    "freeShipping": true,
+    "deliveryDays": 3,
+    "variations": [
+      { "type": "color", "options": ["Space Black", "Silver"] },
+      { "type": "memory", "options": ["36GB", "48GB", "128GB"] }
+    ],
+    "features": [
+      "Apple M3 Max chip",
+      "16.2-inch Liquid Retina XDR display",
+      "Up to 22 hours battery life",
+      "1080p FaceTime HD camera",
+      "Six-speaker sound system"
+    ],
+    "deal": false
+  },
+  {
+    "id": "prod_005",
+    "title": "Dell XPS 15 Laptop - Intel i9 - 32GB RAM - 1TB SSD",
+    "description": "The XPS 15 is crafted with premium materials like machined aluminum and carbon fiber, giving it a modern edge while enabling greater durability.",
+    "images": [
+      "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=500",
+      "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500"
+    ],
+    "price": 1899.99,
+    "originalPrice": 2199.99,
+    "rating": 4.5,
+    "reviewCount": 3245,
+    "category": "computers",
+    "subcategory": "laptops",
+    "brand": "Dell",
+    "stock": 40,
+    "prime": true,
+    "freeShipping": true,
+    "deliveryDays": 2,
+    "variations": [
+      { "type": "color", "options": ["Platinum Silver", "Frost White"] },
+      { "type": "memory", "options": ["16GB", "32GB", "64GB"] }
+    ],
+    "features": [
+      "15.6-inch OLED 3.5K display",
+      "13th Gen Intel Core i9",
+      "NVIDIA GeForce RTX 4070",
+      "Killer Wi-Fi 6E",
+      "Thunderbolt 4 ports"
+    ],
+    "deal": true
+  },
+  {
+    "id": "prod_006",
+    "title": "Nike Air Max 270 Men's Running Shoes",
+    "description": "The Nike Air Max 270 delivers visible cushioning under every step. Updated with a fresh look, this iconic design features a large window and fresh colors.",
+    "images": [
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500",
+      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=500"
+    ],
+    "price": 159.99,
+    "originalPrice": 180.00,
+    "rating": 4.6,
+    "reviewCount": 18234,
+    "category": "fashion",
+    "subcategory": "shoes",
+    "brand": "Nike",
+    "stock": 200,
+    "prime": true,
+    "freeShipping": true,
+    "deliveryDays": 3,
+    "variations": [
+      { "type": "color", "options": ["Black/White", "University Red", "Royal Blue", "Triple Black"] },
+      { "type": "size", "options": ["7", "8", "9", "10", "11", "12", "13"] }
+    ],
+    "features": [
+      "Max Air 270 unit for cushioning",
+      "Mesh upper for breathability",
+      "Foam midsole",
+      "Rubber outsole",
+      "Heel pull tab"
+    ],
+    "deal": false
+  },
+  {
+    "id": "prod_007",
+    "title": "Levi's Men's 501 Original Fit Jeans",
+    "description": "The original jean. The 501 Original Fit Jeans are the blueprint for all jeans to follow: the iconic straight fit with signature button fly.",
+    "images": [
+      "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500",
+      "https://images.unsplash.com/photo-1582552938357-32b906df40cb?w=500"
+    ],
+    "price": 59.50,
+    "originalPrice": 79.50,
+    "rating": 4.4,
+    "reviewCount": 45678,
+    "category": "fashion",
+    "subcategory": "clothing",
+    "brand": "Levi's",
+    "stock": 500,
+    "prime": true,
+    "freeShipping": true,
+    "deliveryDays": 2,
+    "variations": [
+      { "type": "color", "options": ["Medium Stonewash", "Dark Stonewash", "Black", "Rinse"] },
+      { "type": "size", "options": ["30x30", "32x30", "32x32", "34x32", "34x34", "36x32", "38x32"] }
+    ],
+    "features": [
+      "100% Cotton",
+      "Button fly",
+      "Straight leg",
+      "Sits at waist",
+      "Regular fit through thigh"
+    ],
+    "deal": true
+  },
+  {
+    "id": "prod_008",
+    "title": "Instant Pot Duo 7-in-1 Electric Pressure Cooker",
+    "description": "The Instant Pot Duo is the number 1 selling multi-cooker, a smart Electric Pressure Cooker designed to replace 7 kitchen appliances.",
+    "images": [
+      "https://images.unsplash.com/photo-1585515320310-259814833e62?w=500",
+      "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=500"
+    ],
+    "price": 89.95,
+    "originalPrice": 119.95,
+    "rating": 4.7,
+    "reviewCount": 156789,
+    "category": "home",
+    "subcategory": "kitchen",
+    "brand": "Instant Pot",
+    "stock": 300,
+    "prime": true,
+    "freeShipping": true,
+    "deliveryDays": 1,
+    "variations": [
+      { "type": "size", "options": ["3 Quart", "6 Quart", "8 Quart"] }
+    ],
+    "features": [
+      "7-in-1 functionality",
+      "13 one-touch cooking programs",
+      "Stainless steel inner pot",
+      "Dishwasher safe parts",
+      "UL and ULC certified"
+    ],
+    "deal": true
+  },
+  {
+    "id": "prod_009",
+    "title": "Dyson V15 Detect Cordless Vacuum Cleaner",
+    "description": "Reveals invisible dust with a precisely angled laser, scientifically proven to detect particles that are otherwise invisible on hard floors.",
+    "images": [
+      "https://images.unsplash.com/photo-1558317374-067fb5f30001?w=500",
+      "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=500"
+    ],
+    "price": 749.99,
+    "originalPrice": 849.99,
+    "rating": 4.8,
+    "reviewCount": 8765,
+    "category": "home",
+    "subcategory": "appliances",
+    "brand": "Dyson",
+    "stock": 60,
+    "prime": true,
+    "freeShipping": true,
+    "deliveryDays": 2,
+    "variations": [
+      { "type": "color", "options": ["Yellow/Iron/Nickel", "Blue/Gold"] }
+    ],
+    "features": [
+      "Laser reveals invisible dust",
+      "Piezo sensor counts particles",
+      "Up to 60 minutes run time",
+      "LCD screen shows real-time data",
+      "Whole-machine HEPA filtration"
+    ],
+    "deal": false
+  },
+  {
+    "id": "prod_010",
+    "title": "The Psychology of Money - Hardcover Book",
+    "description": "Timeless lessons on wealth, greed, and happiness doing well with money isn't necessarily about what you know. It's about how you behave.",
+    "images": [
+      "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=500",
+      "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=500"
+    ],
+    "price": 14.99,
+    "originalPrice": 24.99,
+    "rating": 4.8,
+    "reviewCount": 78901,
+    "category": "books",
+    "subcategory": "business",
+    "brand": "Harriman House",
+    "stock": 1000,
+    "prime": true,
+    "freeShipping": true,
+    "deliveryDays": 1,
+    "variations": [
+      { "type": "format", "options": ["Hardcover", "Paperback", "Kindle", "Audiobook"] }
+    ],
+    "features": [
+      "256 pages",
+      "Best seller",
+      "Award-winning author",
+      "19 short stories",
+      "Financial wisdom"
+    ],
+    "deal": true
+  },
+  {
+    "id": "prod_011",
+    "title": "LEGO Star Wars Millennium Falcon Building Set",
+    "description": "Build and display this detailed LEGO Star Wars Ultimate Collector Series Millennium Falcon. This model includes 7,541 pieces.",
+    "images": [
+      "https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=500",
+      "https://images.unsplash.com/photo-1472457897821-70d3819a0e24?w=500"
+    ],
+    "price": 849.99,
+    "originalPrice": 899.99,
+    "rating": 4.9,
+    "reviewCount": 3456,
+    "category": "toys",
+    "subcategory": "building",
+    "brand": "LEGO",
+    "stock": 20,
+    "prime": true,
+    "freeShipping": true,
+    "deliveryDays": 3,
+    "variations": [],
+    "features": [
+      "7,541 pieces",
+      "Includes 4 minifigures",
+      "Rotating gun turrets",
+      "Removable hull panels",
+      "Display stand included"
+    ],
+    "deal": false
+  },
+  {
+    "id": "prod_012",
+    "title": "PlayStation 5 Console - God of War Bundle",
+    "description": "Experience lightning-fast loading with an ultra-high speed SSD, deeper immersion with support for haptic feedback, and adaptive triggers.",
+    "images": [
+      "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?w=500",
+      "https://images.unsplash.com/photo-1607853202273-797f1c22a38e?w=500"
+    ],
+    "price": 559.99,
+    "originalPrice": 609.99,
+    "rating": 4.9,
+    "reviewCount": 34567,
+    "category": "electronics",
+    "subcategory": "gaming",
+    "brand": "Sony",
+    "stock": 15,
+    "prime": true,
+    "freeShipping": true,
+    "deliveryDays": 2,
+    "variations": [
+      { "type": "edition", "options": ["Standard", "Digital"] }
+    ],
+    "features": [
+      "Custom AMD CPU and GPU",
+      "Ultra-high speed SSD",
+      "Ray tracing support",
+      "4K-TV gaming",
+      "God of War Ragnarok included"
+    ],
+    "deal": true
+  },
+  {
+    "id": "prod_013",
+    "title": "Fitbit Charge 6 Fitness Tracker",
+    "description": "Fitbit's most advanced health & fitness tracker. Track your heart health with irregular heart rhythm notifications.",
+    "images": [
+      "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=500",
+      "https://images.unsplash.com/photo-1557438159-51eec7a6c9e8?w=500"
+    ],
+    "price": 139.95,
+    "originalPrice": 159.95,
+    "rating": 4.4,
+    "reviewCount": 12345,
+    "category": "electronics",
+    "subcategory": "wearables",
+    "brand": "Fitbit",
+    "stock": 150,
+    "prime": true,
+    "freeShipping": true,
+    "deliveryDays": 1,
+    "variations": [
+      { "type": "color", "options": ["Black", "Coral", "Porcelain"] }
+    ],
+    "features": [
+      "Built-in GPS",
+      "Heart rate tracking",
+      "Sleep tracking",
+      "7-day battery life",
+      "Water resistant to 50m"
+    ],
+    "deal": false
+  },
+  {
+    "id": "prod_014",
+    "title": "Ninja Foodi 9-in-1 Deluxe XL Pressure Cooker & Air Fryer",
+    "description": "The Ninja Foodi is the pressure cooker that crisps. TenderCrisp technology lets you quickly pressure cook ingredients, then give them a crispy finish.",
+    "images": [
+      "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?w=500",
+      "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=500"
+    ],
+    "price": 229.99,
+    "originalPrice": 279.99,
+    "rating": 4.7,
+    "reviewCount": 23456,
+    "category": "home",
+    "subcategory": "kitchen",
+    "brand": "Ninja",
+    "stock": 80,
+    "prime": true,
+    "freeShipping": true,
+    "deliveryDays": 2,
+    "variations": [
+      { "type": "size", "options": ["6.5 Quart", "8 Quart"] }
+    ],
+    "features": [
+      "TenderCrisp technology",
+      "9-in-1 functionality",
+      "8-quart capacity",
+      "Crisping lid included",
+      "45+ recipes included"
+    ],
+    "deal": true
+  },
+  {
+    "id": "prod_015",
+    "title": "Bose QuietComfort 45 Bluetooth Wireless Headphones",
+    "description": "Quiet Mode delivers full noise cancelling to shut out the world around you. Aware Mode lets sounds in to keep you aware of your surroundings.",
+    "images": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500",
+      "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=500"
+    ],
+    "price": 279.00,
+    "originalPrice": 329.00,
+    "rating": 4.6,
+    "reviewCount": 18234,
+    "category": "electronics",
+    "subcategory": "headphones",
+    "brand": "Bose",
+    "stock": 90,
+    "prime": true,
+    "freeShipping": true,
+    "deliveryDays": 1,
+    "variations": [
+      { "type": "color", "options": ["Black", "White Smoke", "Triple Black"] }
+    ],
+    "features": [
+      "World-class noise cancellation",
+      "24-hour battery life",
+      "High-fidelity audio",
+      "Adjustable EQ",
+      "Multi-device connection"
+    ],
+    "deal": false
+  },
+  {
+    "id": "prod_016",
+    "title": "Samsung 65\" Class OLED 4K S90C Smart TV",
+    "description": "See movies, shows and games as they were meant to be experienced with rich, true colors, deep blacks and the sharpest details.",
+    "images": [
+      "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=500",
+      "https://images.unsplash.com/photo-1461151304267-38535e780c79?w=500"
+    ],
+    "price": 1797.99,
+    "originalPrice": 2199.99,
+    "rating": 4.7,
+    "reviewCount": 5678,
+    "category": "electronics",
+    "subcategory": "tv",
+    "brand": "Samsung",
+    "stock": 30,
+    "prime": true,
+    "freeShipping": true,
+    "deliveryDays": 5,
+    "variations": [
+      { "type": "size", "options": ["55\"", "65\"", "77\""] }
+    ],
+    "features": [
+      "OLED 4K display",
+      "Neural Quantum Processor",
+      "Dolby Atmos & Object Tracking Sound",
+      "Gaming Hub",
+      "SmartThings integration"
+    ],
+    "deal": true
+  },
+  {
+    "id": "prod_017",
+    "title": "Adidas Ultraboost 23 Running Shoes",
+    "description": "These running shoes help you find energy in every stride. The BOOST midsole cushions your feet from heel to toe.",
+    "images": [
+      "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=500",
+      "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=500"
+    ],
+    "price": 189.99,
+    "originalPrice": 210.00,
+    "rating": 4.7,
+    "reviewCount": 9876,
+    "category": "fashion",
+    "subcategory": "shoes",
+    "brand": "Adidas",
+    "stock": 180,
+    "prime": true,
+    "freeShipping": true,
+    "deliveryDays": 2,
+    "variations": [
+      { "type": "color", "options": ["Core Black", "Cloud White", "Solar Red", "Navy"] },
+      { "type": "size", "options": ["7", "8", "9", "10", "11", "12"] }
+    ],
+    "features": [
+      "BOOST midsole",
+      "Primeknit+ upper",
+      "Linear Energy Push",
+      "Continental rubber outsole",
+      "Sock-like fit"
+    ],
+    "deal": false
+  },
+  {
+    "id": "prod_018",
+    "title": "KitchenAid Artisan Series 5 Quart Stand Mixer",
+    "description": "Make up to 9 dozen cookies in a single batch with the 5 quart stainless steel mixing bowl with comfortable handle.",
+    "images": [
+      "https://images.unsplash.com/photo-1594385208974-2e75f8d7bb48?w=500",
+      "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=500"
+    ],
+    "price": 379.99,
+    "originalPrice": 449.99,
+    "rating": 4.8,
+    "reviewCount": 45678,
+    "category": "home",
+    "subcategory": "kitchen",
+    "brand": "KitchenAid",
+    "stock": 70,
+    "prime": true,
+    "freeShipping": true,
+    "deliveryDays": 3,
+    "variations": [
+      { "type": "color", "options": ["Empire Red", "Onyx Black", "Silver", "Pistachio", "Matcha"] }
+    ],
+    "features": [
+      "5-quart stainless steel bowl",
+      "10 speeds",
+      "59-point planetary mixing",
+      "Tilt-head design",
+      "10+ attachments available"
+    ],
+    "deal": true
+  },
+  {
+    "id": "prod_019",
+    "title": "Canon EOS R6 Mark II Mirrorless Camera",
+    "description": "The EOS R6 Mark II camera is built for photographers and hybrid shooters looking for exceptional photo quality and video performance.",
+    "images": [
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
+    ],
+    "price": 2499.00,
+    "originalPrice": 2799.00,
+    "rating": 4.8,
+    "reviewCount": 2345,
+    "category": "electronics",
+    "subcategory": "cameras",
+    "brand": "Canon",
+    "stock": 25,
+    "prime": true,
+    "freeShipping": true,
+    "deliveryDays": 2,
+    "variations": [
+      { "type": "kit", "options": ["Body Only", "With 24-105mm Lens", "With 24-70mm Lens"] }
+    ],
+    "features": [
+      "24.2 megapixel sensor",
+      "Up to 40fps continuous shooting",
+      "6K RAW video recording",
+      "In-body image stabilization",
+      "Dual Pixel CMOS AF II"
+    ],
+    "deal": false
+  },
+  {
+    "id": "prod_020",
+    "title": "Atomic Habits by James Clear - Paperback",
+    "description": "No matter your goals, Atomic Habits offers a proven framework for improving—every day. Learn how to make time for new habits.",
+    "images": [
+      "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=500",
+      "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=500"
+    ],
+    "price": 11.98,
+    "originalPrice": 18.99,
+    "rating": 4.8,
+    "reviewCount": 123456,
+    "category": "books",
+    "subcategory": "self-help",
+    "brand": "Avery",
+    "stock": 2000,
+    "prime": true,
+    "freeShipping": true,
+    "deliveryDays": 1,
+    "variations": [
+      { "type": "format", "options": ["Hardcover", "Paperback", "Kindle", "Audiobook"] }
+    ],
+    "features": [
+      "320 pages",
+      "#1 New York Times bestseller",
+      "Practical strategies",
+      "Scientific research",
+      "Real-world examples"
+    ],
+    "deal": true
+  },
+  {
+    "id": "used_001",
+    "title": "[USED] Sony Alpha a6400 Mirrorless Camera - Excellent Condition",
+    "description": "Pre-owned Sony Alpha a6400 in excellent working condition. Minor cosmetic wear. All functions tested and working perfectly. Includes original box and accessories.",
+    "images": [
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
+    ],
+    "price": 549.00,
+    "originalPrice": 899.00,
+    "rating": 4.5,
+    "reviewCount": 234,
+    "category": "electronics",
+    "subcategory": "used-cameras",
+    "brand": "Sony",
+    "stock": 3,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 4,
+    "variations": [],
+    "features": [
+      "24.2MP APS-C sensor",
+      "4K video recording",
+      "180-degree tilting touchscreen",
+      "Real-time Eye AF",
+      "11fps continuous shooting"
+    ],
+    "deal": false,
+    "isUsed": true,
+    "condition": "Excellent"
+  },
+  {
+    "id": "used_002",
+    "title": "[USED] Canon EOS 80D DSLR Camera Body - Good Condition",
+    "description": "Pre-owned Canon EOS 80D body only. Shows normal signs of use but works flawlessly. Shutter count: 15,000. Great for enthusiasts and professionals.",
+    "images": [
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
+    ],
+    "price": 485.00,
+    "originalPrice": 1199.00,
+    "rating": 4.6,
+    "reviewCount": 189,
+    "category": "electronics",
+    "subcategory": "used-cameras",
+    "brand": "Canon",
+    "stock": 2,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 5,
+    "variations": [],
+    "features": [
+      "24.2MP APS-C CMOS sensor",
+      "45-point all cross-type AF",
+      "Dual Pixel CMOS AF",
+      "7fps continuous shooting",
+      "Built-in Wi-Fi and NFC"
+    ],
+    "deal": false,
+    "isUsed": true,
+    "condition": "Good"
+  },
+  {
+    "id": "used_003",
+    "title": "[USED] Nikon D750 Full Frame DSLR - Very Good Condition",
+    "description": "Used Nikon D750 full-frame camera in very good condition. Light wear on body. Sensor cleaned professionally. Perfect for wedding and portrait photography.",
+    "images": [
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
+    ],
+    "price": 725.00,
+    "originalPrice": 1499.00,
+    "rating": 4.7,
+    "reviewCount": 312,
+    "category": "electronics",
+    "subcategory": "used-cameras",
+    "brand": "Nikon",
+    "stock": 1,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 4,
+    "variations": [],
+    "features": [
+      "24.3MP FX-format sensor",
+      "51-point AF system",
+      "Full HD 1080p video",
+      "Tilting LCD screen",
+      "6.5fps continuous shooting"
+    ],
+    "deal": true,
+    "isUsed": true,
+    "condition": "Very Good"
+  },
+  {
+    "id": "used_004",
+    "title": "[USED] Fujifilm X-T30 Mirrorless Camera - Like New",
+    "description": "Barely used Fujifilm X-T30 in like-new condition. Less than 500 shutter actuations. Includes all original accessories and box.",
+    "images": [
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
+    ],
+    "price": 595.00,
+    "originalPrice": 899.00,
+    "rating": 4.8,
+    "reviewCount": 156,
+    "category": "electronics",
+    "subcategory": "used-cameras",
+    "brand": "Fujifilm",
+    "stock": 2,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 3,
+    "variations": [],
+    "features": [
+      "26.1MP X-Trans CMOS 4 sensor",
+      "4K/30p video recording",
+      "Film simulation modes",
+      "Compact and lightweight",
+      "Joystick AF point control"
+    ],
+    "deal": false,
+    "isUsed": true,
+    "condition": "Like New"
+  },
+  {
+    "id": "used_005",
+    "title": "[USED] Panasonic Lumix GH5 - Excellent Condition",
+    "description": "Professional-grade Panasonic GH5 in excellent condition. Perfect for videographers. 4K 60fps capable. Comes with battery grip.",
+    "images": [
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
+    ],
+    "price": 789.00,
+    "originalPrice": 1699.00,
+    "rating": 4.7,
+    "reviewCount": 278,
+    "category": "electronics",
+    "subcategory": "used-cameras",
+    "brand": "Panasonic",
+    "stock": 1,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 4,
+    "variations": [],
+    "features": [
+      "20.3MP Digital Live MOS sensor",
+      "4K 60p / 4:2:2 10-bit video",
+      "5-axis Dual I.S. 2",
+      "Weather-sealed body",
+      "12fps continuous shooting"
+    ],
+    "deal": true,
+    "isUsed": true,
+    "condition": "Excellent"
+  },
+  {
+    "id": "used_006",
+    "title": "[USED] Sony Alpha a7 II Full Frame Camera - Good Condition",
+    "description": "Used Sony a7 II full-frame mirrorless camera. Some cosmetic wear but fully functional. Great entry point to full-frame photography.",
+    "images": [
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
+    ],
+    "price": 625.00,
+    "originalPrice": 1399.00,
+    "rating": 4.4,
+    "reviewCount": 445,
+    "category": "electronics",
+    "subcategory": "used-cameras",
+    "brand": "Sony",
+    "stock": 3,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 5,
+    "variations": [],
+    "features": [
+      "24.3MP full-frame sensor",
+      "5-axis in-body stabilization",
+      "Full HD 1080p video",
+      "Fast Hybrid AF",
+      "Compact full-frame design"
+    ],
+    "deal": false,
+    "isUsed": true,
+    "condition": "Good"
+  },
+  {
+    "id": "used_007",
+    "title": "[USED] Canon PowerShot G7 X Mark III - Excellent Condition",
+    "description": "Compact Canon G7 X III perfect for vlogging. Excellent condition with minimal signs of use. Includes all original accessories.",
+    "images": [
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
+    ],
+    "price": 465.00,
+    "originalPrice": 749.00,
+    "rating": 4.5,
+    "reviewCount": 167,
+    "category": "electronics",
+    "subcategory": "used-cameras",
+    "brand": "Canon",
+    "stock": 4,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 3,
+    "variations": [],
+    "features": [
+      "20.1MP 1-inch sensor",
+      "4K video with no crop",
+      "Live streaming capable",
+      "Tilting touchscreen",
+      "Built-in ND filter"
+    ],
+    "deal": false,
+    "isUsed": true,
+    "condition": "Excellent"
+  },
+  {
+    "id": "used_008",
+    "title": "[USED] Nikon Z50 Mirrorless Camera - Very Good Condition",
+    "description": "Nikon Z50 APS-C mirrorless camera in very good condition. Perfect for beginners and enthusiasts. Includes kit lens.",
+    "images": [
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
+    ],
+    "price": 575.00,
+    "originalPrice": 999.00,
+    "rating": 4.6,
+    "reviewCount": 198,
+    "category": "electronics",
+    "subcategory": "used-cameras",
+    "brand": "Nikon",
+    "stock": 2,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 4,
+    "variations": [],
+    "features": [
+      "20.9MP DX-format sensor",
+      "4K UHD video",
+      "Eye-detection AF",
+      "Tilting touchscreen",
+      "11fps continuous shooting"
+    ],
+    "deal": false,
+    "isUsed": true,
+    "condition": "Very Good"
+  },
+  {
+    "id": "used_009",
+    "title": "[USED] Sony RX100 VII Premium Compact - Like New",
+    "description": "Sony RX100 VII in near-perfect condition. The ultimate pocket camera. Less than 1000 shots taken.",
+    "images": [
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
+    ],
+    "price": 799.00,
+    "originalPrice": 1299.00,
+    "rating": 4.8,
+    "reviewCount": 234,
+    "category": "electronics",
+    "subcategory": "used-cameras",
+    "brand": "Sony",
+    "stock": 1,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 3,
+    "variations": [],
+    "features": [
+      "20.1MP 1-inch sensor",
+      "24-200mm equivalent zoom",
+      "Real-time tracking",
+      "4K video",
+      "20fps continuous shooting"
+    ],
+    "deal": true,
+    "isUsed": true,
+    "condition": "Like New"
+  },
+  {
+    "id": "used_010",
+    "title": "[USED] Fujifilm X-E4 Mirrorless Camera - Excellent Condition",
+    "description": "Stylish Fujifilm X-E4 in excellent condition. Rangefinder-style design. Perfect for street photography.",
+    "images": [
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
+    ],
+    "price": 545.00,
+    "originalPrice": 849.00,
+    "rating": 4.6,
+    "reviewCount": 145,
+    "category": "electronics",
+    "subcategory": "used-cameras",
+    "brand": "Fujifilm",
+    "stock": 2,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 4,
+    "variations": [],
+    "features": [
+      "26.1MP X-Trans CMOS 4 sensor",
+      "4K/30p video",
+      "Film simulation modes",
+      "Minimalist design",
+      "Tilting LCD screen"
+    ],
+    "deal": false,
+    "isUsed": true,
+    "condition": "Excellent"
+  },
+  {
+    "id": "used_011",
+    "title": "[USED] Canon EOS M50 Mark II - Very Good Condition",
+    "description": "Canon EOS M50 II vlogging camera in very good condition. Great for content creators. Includes microphone adapter.",
+    "images": [
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
+    ],
+    "price": 425.00,
+    "originalPrice": 699.00,
+    "rating": 4.5,
+    "reviewCount": 289,
+    "category": "electronics",
+    "subcategory": "used-cameras",
+    "brand": "Canon",
+    "stock": 3,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 4,
+    "variations": [],
+    "features": [
+      "24.1MP APS-C sensor",
+      "4K video",
+      "Vari-angle touchscreen",
+      "Eye Detection AF",
+      "Live streaming support"
+    ],
+    "deal": false,
+    "isUsed": true,
+    "condition": "Very Good"
+  },
+  {
+    "id": "used_012",
+    "title": "[USED] Sony Alpha a6100 Mirrorless Camera - Good Condition",
+    "description": "Entry-level Sony a6100 in good working condition. Perfect starter camera for mirrorless photography.",
+    "images": [
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
+    ],
+    "price": 385.00,
+    "originalPrice": 749.00,
+    "rating": 4.4,
+    "reviewCount": 312,
+    "category": "electronics",
+    "subcategory": "used-cameras",
+    "brand": "Sony",
+    "stock": 4,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 5,
+    "variations": [],
+    "features": [
+      "24.2MP APS-C sensor",
+      "Real-time Eye AF",
+      "4K video recording",
+      "180-degree flip screen",
+      "425 phase-detect AF points"
+    ],
+    "deal": true,
+    "isUsed": true,
+    "condition": "Good"
+  },
+  {
+    "id": "used_013",
+    "title": "[USED] Nikon D5600 DSLR Camera - Excellent Condition",
+    "description": "Nikon D5600 in excellent condition with low shutter count. Great for beginners. Includes 18-55mm kit lens.",
+    "images": [
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
+    ],
+    "price": 445.00,
+    "originalPrice": 849.00,
+    "rating": 4.6,
+    "reviewCount": 456,
+    "category": "electronics",
+    "subcategory": "used-cameras",
+    "brand": "Nikon",
+    "stock": 2,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 4,
+    "variations": [],
+    "features": [
+      "24.2MP DX-format sensor",
+      "Vari-angle touchscreen",
+      "39-point AF system",
+      "Full HD 1080p video",
+      "SnapBridge connectivity"
+    ],
+    "deal": false,
+    "isUsed": true,
+    "condition": "Excellent"
+  },
+  {
+    "id": "used_014",
+    "title": "[USED] Panasonic Lumix G85 - Very Good Condition",
+    "description": "Weather-sealed Panasonic G85 in very good condition. Great for travel and outdoor photography.",
+    "images": [
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
+    ],
+    "price": 495.00,
+    "originalPrice": 999.00,
+    "rating": 4.5,
+    "reviewCount": 234,
+    "category": "electronics",
+    "subcategory": "used-cameras",
+    "brand": "Panasonic",
+    "stock": 2,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 4,
+    "variations": [],
+    "features": [
+      "16MP Digital Live MOS sensor",
+      "5-axis Dual I.S.",
+      "4K video recording",
+      "Weather-sealed body",
+      "OLED viewfinder"
+    ],
+    "deal": false,
+    "isUsed": true,
+    "condition": "Very Good"
+  },
+  {
+    "id": "used_015",
+    "title": "[USED] Fujifilm X-T200 Mirrorless Camera - Like New",
+    "description": "Fujifilm X-T200 in like-new condition. Lightweight and perfect for everyday photography. Barely used.",
+    "images": [
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
+    ],
+    "price": 395.00,
+    "originalPrice": 699.00,
+    "rating": 4.4,
+    "reviewCount": 178,
+    "category": "electronics",
+    "subcategory": "used-cameras",
+    "brand": "Fujifilm",
+    "stock": 3,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 3,
+    "variations": [],
+    "features": [
+      "24.2MP APS-C sensor",
+      "Large vari-angle touchscreen",
+      "4K video",
+      "Digital gimbal",
+      "Face/Eye detection"
+    ],
+    "deal": false,
+    "isUsed": true,
+    "condition": "Like New"
+  },
+  {
+    "id": "used_016",
+    "title": "[USED] Sony Alpha a7 III Full Frame - Excellent Condition",
+    "description": "Professional Sony a7 III in excellent condition. Full-frame sensor with amazing low-light performance. Well maintained.",
+    "images": [
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
+    ],
+    "price": 799.00,
+    "originalPrice": 1999.00,
+    "rating": 4.8,
+    "reviewCount": 567,
+    "category": "electronics",
+    "subcategory": "used-cameras",
+    "brand": "Sony",
+    "stock": 1,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 3,
+    "variations": [],
+    "features": [
+      "24.2MP full-frame sensor",
+      "693 phase-detect AF points",
+      "5-axis stabilization",
+      "4K HDR video",
+      "10fps continuous shooting"
+    ],
+    "deal": true,
+    "isUsed": true,
+    "condition": "Excellent"
+  },
+  {
+    "id": "used_017",
+    "title": "[USED] Canon EOS Rebel T8i DSLR - Good Condition",
+    "description": "Canon T8i DSLR in good working condition. Entry-level camera perfect for learning photography.",
+    "images": [
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
+    ],
+    "price": 525.00,
+    "originalPrice": 899.00,
+    "rating": 4.5,
+    "reviewCount": 345,
+    "category": "electronics",
+    "subcategory": "used-cameras",
+    "brand": "Canon",
+    "stock": 2,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 4,
+    "variations": [],
+    "features": [
+      "24.1MP APS-C sensor",
+      "4K video recording",
+      "Dual Pixel CMOS AF",
+      "Vari-angle touchscreen",
+      "7fps continuous shooting"
+    ],
+    "deal": false,
+    "isUsed": true,
+    "condition": "Good"
+  },
+  {
+    "id": "used_018",
+    "title": "[USED] Nikon Z6 Full Frame Mirrorless - Very Good Condition",
+    "description": "Nikon Z6 full-frame mirrorless in very good condition. Great all-around camera for photo and video.",
+    "images": [
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
+    ],
+    "price": 765.00,
+    "originalPrice": 1799.00,
+    "rating": 4.7,
+    "reviewCount": 289,
+    "category": "electronics",
+    "subcategory": "used-cameras",
+    "brand": "Nikon",
+    "stock": 1,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 4,
+    "variations": [],
+    "features": [
+      "24.5MP FX-format sensor",
+      "5-axis VR stabilization",
+      "4K UHD video",
+      "273-point hybrid AF",
+      "12fps continuous shooting"
+    ],
+    "deal": true,
+    "isUsed": true,
+    "condition": "Very Good"
+  },
+  {
+    "id": "used_019",
+    "title": "[USED] Sony Cyber-shot DSC-RX10 IV - Excellent Condition",
+    "description": "Sony RX10 IV bridge camera in excellent condition. Amazing 25x zoom range. Perfect for wildlife and sports.",
+    "images": [
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
+    ],
+    "price": 695.00,
+    "originalPrice": 1699.00,
+    "rating": 4.6,
+    "reviewCount": 198,
+    "category": "electronics",
+    "subcategory": "used-cameras",
+    "brand": "Sony",
+    "stock": 2,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 4,
+    "variations": [],
+    "features": [
+      "20.1MP 1-inch sensor",
+      "24-600mm equivalent zoom",
+      "24fps continuous shooting",
+      "4K video",
+      "Real-time tracking AF"
+    ],
+    "deal": false,
+    "isUsed": true,
+    "condition": "Excellent"
+  },
+  {
+    "id": "used_020",
+    "title": "[USED] Fujifilm X-S10 Mirrorless Camera - Like New",
+    "description": "Fujifilm X-S10 in like-new condition. Compact body with in-body stabilization. Perfect for travel.",
+    "images": [
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
+    ],
+    "price": 685.00,
+    "originalPrice": 999.00,
+    "rating": 4.7,
+    "reviewCount": 234,
+    "category": "electronics",
+    "subcategory": "used-cameras",
+    "brand": "Fujifilm",
+    "stock": 2,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 3,
+    "variations": [],
+    "features": [
+      "26.1MP X-Trans CMOS 4 sensor",
+      "5-axis IBIS",
+      "4K/30p video",
+      "Vari-angle touchscreen",
+      "Film simulation modes"
+    ],
+    "deal": false,
+    "isUsed": true,
+    "condition": "Like New"
+  },
+  {
+    "id": "used_021",
+    "title": "[USED] Canon EOS RP Full Frame Mirrorless - Good Condition",
+    "description": "Affordable Canon EOS RP full-frame mirrorless. Good condition with normal wear. Great entry to full-frame.",
+    "images": [
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
+    ],
+    "price": 565.00,
+    "originalPrice": 1299.00,
+    "rating": 4.4,
+    "reviewCount": 412,
+    "category": "electronics",
+    "subcategory": "used-cameras",
+    "brand": "Canon",
+    "stock": 3,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 5,
+    "variations": [],
+    "features": [
+      "26.2MP full-frame sensor",
+      "Dual Pixel CMOS AF",
+      "4K video capability",
+      "Compact and lightweight",
+      "Vari-angle touchscreen"
+    ],
+    "deal": true,
+    "isUsed": true,
+    "condition": "Good"
+  },
+  {
+    "id": "used_022",
+    "title": "[USED] Panasonic Lumix S5 Full Frame - Excellent Condition",
+    "description": "Panasonic S5 full-frame mirrorless in excellent condition. Amazing video capabilities. Comes with V-Log.",
+    "images": [
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
+    ],
+    "price": 795.00,
+    "originalPrice": 1999.00,
+    "rating": 4.7,
+    "reviewCount": 178,
+    "category": "electronics",
+    "subcategory": "used-cameras",
+    "brand": "Panasonic",
+    "stock": 1,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 4,
+    "variations": [],
+    "features": [
+      "24.2MP full-frame sensor",
+      "5-axis Dual I.S. 2",
+      "4K 60p video",
+      "V-Log included",
+      "Weather-sealed body"
+    ],
+    "deal": false,
+    "isUsed": true,
+    "condition": "Excellent"
+  },
+  {
+    "id": "used_023",
+    "title": "[USED] Sony Alpha a6000 Mirrorless Camera - Fair Condition",
+    "description": "Classic Sony a6000 in fair condition. Shows wear but works perfectly. Budget-friendly mirrorless option.",
+    "images": [
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
+    ],
+    "price": 285.00,
+    "originalPrice": 649.00,
+    "rating": 4.3,
+    "reviewCount": 678,
+    "category": "electronics",
+    "subcategory": "used-cameras",
+    "brand": "Sony",
+    "stock": 5,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 5,
+    "variations": [],
+    "features": [
+      "24.3MP APS-C sensor",
+      "179-point AF system",
+      "11fps continuous shooting",
+      "Full HD video",
+      "Tilting LCD screen"
+    ],
+    "deal": true,
+    "isUsed": true,
+    "condition": "Fair"
+  },
+  {
+    "id": "used_024",
+    "title": "[USED] Nikon D850 Pro DSLR - Very Good Condition",
+    "description": "Professional Nikon D850 in very good condition. High-resolution sensor perfect for landscapes and studio work.",
+    "images": [
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
+    ],
+    "price": 799.00,
+    "originalPrice": 2999.00,
+    "rating": 4.9,
+    "reviewCount": 234,
+    "category": "electronics",
+    "subcategory": "used-cameras",
+    "brand": "Nikon",
+    "stock": 1,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 3,
+    "variations": [],
+    "features": [
+      "45.7MP FX-format sensor",
+      "153-point AF system",
+      "4K UHD video",
+      "7fps continuous shooting",
+      "Tilting touchscreen"
+    ],
+    "deal": true,
+    "isUsed": true,
+    "condition": "Very Good"
+  },
+  {
+    "id": "used_025",
+    "title": "[USED] Canon PowerShot SX740 HS - Excellent Condition",
+    "description": "Compact travel zoom camera in excellent condition. 40x optical zoom. Perfect for vacation photography.",
+    "images": [
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
+    ],
+    "price": 265.00,
+    "originalPrice": 399.00,
+    "rating": 4.4,
+    "reviewCount": 345,
+    "category": "electronics",
+    "subcategory": "used-cameras",
+    "brand": "Canon",
+    "stock": 4,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 4,
+    "variations": [],
+    "features": [
+      "20.3MP CMOS sensor",
+      "40x optical zoom",
+      "4K video recording",
+      "Tilting LCD screen",
+      "Built-in Wi-Fi and Bluetooth"
+    ],
+    "deal": false,
+    "isUsed": true,
+    "condition": "Excellent"
+  },
+  {
+    "id": "used_026",
+    "title": "[USED] Fujifilm X100V Premium Compact - Good Condition",
+    "description": "Iconic Fujifilm X100V in good condition. Fixed 23mm f/2 lens. Perfect for street photography enthusiasts.",
+    "images": [
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
+    ],
+    "price": 785.00,
+    "originalPrice": 1399.00,
+    "rating": 4.7,
+    "reviewCount": 189,
+    "category": "electronics",
+    "subcategory": "used-cameras",
+    "brand": "Fujifilm",
+    "stock": 1,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 3,
+    "variations": [],
+    "features": [
+      "26.1MP X-Trans CMOS 4 sensor",
+      "Fixed 23mm f/2 lens",
+      "Hybrid viewfinder",
+      "4K video",
+      "Weather-resistant"
+    ],
+    "deal": false,
+    "isUsed": true,
+    "condition": "Good"
+  },
+  {
+    "id": "used_027",
+    "title": "[USED] Sony ZV-1 Vlogging Camera - Excellent Condition",
+    "description": "Popular Sony ZV-1 vlogging camera in excellent condition. Background defocus feature. Content creator favorite.",
+    "images": [
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
+    ],
+    "price": 485.00,
+    "originalPrice": 749.00,
+    "rating": 4.6,
+    "reviewCount": 456,
+    "category": "electronics",
+    "subcategory": "used-cameras",
+    "brand": "Sony",
+    "stock": 3,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 3,
+    "variations": [],
+    "features": [
+      "20.1MP 1-inch sensor",
+      "Real-time tracking",
+      "Background defocus mode",
+      "4K video",
+      "Built-in ND filter"
+    ],
+    "deal": false,
+    "isUsed": true,
+    "condition": "Excellent"
+  },
+  {
+    "id": "used_028",
+    "title": "[USED] Panasonic Lumix GX85 - Very Good Condition",
+    "description": "Compact Panasonic GX85 in very good condition. 5-axis stabilization in a small body.",
+    "images": [
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
+    ],
+    "price": 345.00,
+    "originalPrice": 699.00,
+    "rating": 4.5,
+    "reviewCount": 267,
+    "category": "electronics",
+    "subcategory": "used-cameras",
+    "brand": "Panasonic",
+    "stock": 3,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 4,
+    "variations": [],
+    "features": [
+      "16MP Digital Live MOS sensor",
+      "5-axis Dual I.S.",
+      "4K video recording",
+      "No low-pass filter",
+      "Tilting touchscreen"
+    ],
+    "deal": true,
+    "isUsed": true,
+    "condition": "Very Good"
+  },
+  {
+    "id": "used_029",
+    "title": "[USED] Canon EOS 90D DSLR - Excellent Condition",
+    "description": "Canon EOS 90D enthusiast DSLR in excellent condition. Great for sports and wildlife photography.",
+    "images": [
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
+    ],
+    "price": 695.00,
+    "originalPrice": 1199.00,
+    "rating": 4.7,
+    "reviewCount": 234,
+    "category": "electronics",
+    "subcategory": "used-cameras",
+    "brand": "Canon",
+    "stock": 2,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 4,
+    "variations": [],
+    "features": [
+      "32.5MP APS-C sensor",
+      "45-point all cross-type AF",
+      "4K video",
+      "10fps continuous shooting",
+      "Dual Pixel CMOS AF"
+    ],
+    "deal": false,
+    "isUsed": true,
+    "condition": "Excellent"
+  },
+  {
+    "id": "used_030",
+    "title": "[USED] Nikon Coolpix P1000 Super Zoom - Good Condition",
+    "description": "Amazing 125x zoom Nikon P1000 in good condition. Perfect for wildlife and moon photography.",
+    "images": [
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
+    ],
+    "price": 575.00,
+    "originalPrice": 999.00,
+    "rating": 4.4,
+    "reviewCount": 189,
+    "category": "electronics",
+    "subcategory": "used-cameras",
+    "brand": "Nikon",
+    "stock": 2,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 5,
+    "variations": [],
+    "features": [
+      "16MP BSI CMOS sensor",
+      "125x optical zoom",
+      "24-3000mm equivalent",
+      "4K UHD video",
+      "Vari-angle LCD"
+    ],
+    "deal": true,
+    "isUsed": true,
+    "condition": "Good"
+  },
+  {
+    "id": "used_031",
+    "title": "[USED] Manfrotto MT055XPRO3 Aluminum Tripod - Excellent Condition",
+    "description": "Professional Manfrotto aluminum tripod in excellent condition. 90-degree center column. Heavy-duty build.",
+    "images": [
+      "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500",
+      "https://images.unsplash.com/photo-1542567455-cd733f23fbb1?w=500"
+    ],
+    "price": 115.00,
+    "originalPrice": 229.00,
+    "rating": 4.7,
+    "reviewCount": 345,
+    "category": "electronics",
+    "subcategory": "used-tripods",
+    "brand": "Manfrotto",
+    "stock": 4,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 4,
+    "variations": [],
+    "features": [
+      "90-degree center column",
+      "Max load: 19.8 lbs",
+      "Max height: 67 inches",
+      "Quick power lock legs",
+      "Aluminum construction"
+    ],
+    "deal": false,
+    "isUsed": true,
+    "condition": "Excellent"
+  },
+  {
+    "id": "used_032",
+    "title": "[USED] Vanguard Alta Pro 263AB Tripod Kit - Very Good Condition",
+    "description": "Vanguard Alta Pro tripod with ball head in very good condition. Multi-angle center column system.",
+    "images": [
+      "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500",
+      "https://images.unsplash.com/photo-1542567455-cd733f23fbb1?w=500"
+    ],
+    "price": 95.00,
+    "originalPrice": 199.00,
+    "rating": 4.6,
+    "reviewCount": 234,
+    "category": "electronics",
+    "subcategory": "used-tripods",
+    "brand": "Vanguard",
+    "stock": 3,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 4,
+    "variations": [],
+    "features": [
+      "Multi-angle center column",
+      "Max load: 15.4 lbs",
+      "Max height: 68.5 inches",
+      "Ball head included",
+      "Quick-flip leg locks"
+    ],
+    "deal": false,
+    "isUsed": true,
+    "condition": "Very Good"
+  },
+  {
+    "id": "used_033",
+    "title": "[USED] Joby GorillaPod 5K Kit - Like New",
+    "description": "Flexible Joby GorillaPod 5K in like-new condition. Perfect for creative angles. Includes ball head.",
+    "images": [
+      "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500",
+      "https://images.unsplash.com/photo-1542567455-cd733f23fbb1?w=500"
+    ],
+    "price": 85.00,
+    "originalPrice": 149.00,
+    "rating": 4.5,
+    "reviewCount": 567,
+    "category": "electronics",
+    "subcategory": "used-tripods",
+    "brand": "Joby",
+    "stock": 6,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 3,
+    "variations": [],
+    "features": [
+      "Flexible wrapping legs",
+      "Max load: 11 lbs",
+      "Ball head included",
+      "Rubber grip rings",
+      "Compact and portable"
+    ],
+    "deal": true,
+    "isUsed": true,
+    "condition": "Like New"
+  },
+  {
+    "id": "used_034",
+    "title": "[USED] Benro Mach3 Carbon Fiber Tripod - Excellent Condition",
+    "description": "Lightweight Benro carbon fiber tripod in excellent condition. Professional grade with twist locks.",
+    "images": [
+      "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500",
+      "https://images.unsplash.com/photo-1542567455-cd733f23fbb1?w=500"
+    ],
+    "price": 118.00,
+    "originalPrice": 279.00,
+    "rating": 4.7,
+    "reviewCount": 189,
+    "category": "electronics",
+    "subcategory": "used-tripods",
+    "brand": "Benro",
+    "stock": 2,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 4,
+    "variations": [],
+    "features": [
+      "Carbon fiber legs",
+      "Max load: 26.5 lbs",
+      "Max height: 63 inches",
+      "Twist lock legs",
+      "Removable center column"
+    ],
+    "deal": false,
+    "isUsed": true,
+    "condition": "Excellent"
+  },
+  {
+    "id": "used_035",
+    "title": "[USED] Manfrotto Befree Advanced Travel Tripod - Good Condition",
+    "description": "Compact Manfrotto Befree travel tripod in good condition. Perfect for travel photography.",
+    "images": [
+      "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500",
+      "https://images.unsplash.com/photo-1542567455-cd733f23fbb1?w=500"
+    ],
+    "price": 78.00,
+    "originalPrice": 179.00,
+    "rating": 4.5,
+    "reviewCount": 423,
+    "category": "electronics",
+    "subcategory": "used-tripods",
+    "brand": "Manfrotto",
+    "stock": 5,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 4,
+    "variations": [],
+    "features": [
+      "Twist lock legs",
+      "Max load: 17.6 lbs",
+      "Folds to 16 inches",
+      "Ball head included",
+      "Aluminum construction"
+    ],
+    "deal": true,
+    "isUsed": true,
+    "condition": "Good"
+  },
+  {
+    "id": "used_036",
+    "title": "[USED] Sirui T-025X Carbon Fiber Tripod - Very Good Condition",
+    "description": "Ultra-compact Sirui carbon fiber tripod in very good condition. Weighs only 1.5 lbs.",
+    "images": [
+      "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500",
+      "https://images.unsplash.com/photo-1542567455-cd733f23fbb1?w=500"
+    ],
+    "price": 92.00,
+    "originalPrice": 199.00,
+    "rating": 4.6,
+    "reviewCount": 234,
+    "category": "electronics",
+    "subcategory": "used-tripods",
+    "brand": "Sirui",
+    "stock": 3,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 4,
+    "variations": [],
+    "features": [
+      "Carbon fiber construction",
+      "Weighs only 1.5 lbs",
+      "Max load: 13.2 lbs",
+      "5-section legs",
+      "Ball head included"
+    ],
+    "deal": false,
+    "isUsed": true,
+    "condition": "Very Good"
+  },
+  {
+    "id": "used_037",
+    "title": "[USED] K&F Concept Heavy Duty Video Tripod - Excellent Condition",
+    "description": "Sturdy K&F Concept video tripod in excellent condition. Fluid head for smooth panning.",
+    "images": [
+      "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500",
+      "https://images.unsplash.com/photo-1542567455-cd733f23fbb1?w=500"
+    ],
+    "price": 72.00,
+    "originalPrice": 139.00,
+    "rating": 4.4,
+    "reviewCount": 312,
+    "category": "electronics",
+    "subcategory": "used-tripods",
+    "brand": "K&F Concept",
+    "stock": 4,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 5,
+    "variations": [],
+    "features": [
+      "Fluid drag head",
+      "Max load: 22 lbs",
+      "Max height: 72 inches",
+      "Quick release plate",
+      "Mid-level spreader"
+    ],
+    "deal": false,
+    "isUsed": true,
+    "condition": "Excellent"
+  },
+  {
+    "id": "used_038",
+    "title": "[USED] Gitzo GT1545T Traveler Tripod - Like New",
+    "description": "Premium Gitzo Traveler tripod in like-new condition. Carbon fiber. Lightweight and compact.",
+    "images": [
+      "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500",
+      "https://images.unsplash.com/photo-1542567455-cd733f23fbb1?w=500"
+    ],
+    "price": 120.00,
+    "originalPrice": 599.00,
+    "rating": 4.9,
+    "reviewCount": 145,
+    "category": "electronics",
+    "subcategory": "used-tripods",
+    "brand": "Gitzo",
+    "stock": 1,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 3,
+    "variations": [],
+    "features": [
+      "Carbon fiber eXact tubes",
+      "Max load: 22 lbs",
+      "Folds to 15.4 inches",
+      "Traveler G-lock",
+      "Ground level shooting"
+    ],
+    "deal": true,
+    "isUsed": true,
+    "condition": "Like New"
+  },
+  {
+    "id": "used_039",
+    "title": "[USED] Neewer 77-inch Aluminum Tripod - Good Condition",
+    "description": "Budget-friendly Neewer tripod in good condition. Great height for various shooting situations.",
+    "images": [
+      "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500",
+      "https://images.unsplash.com/photo-1542567455-cd733f23fbb1?w=500"
+    ],
+    "price": 52.00,
+    "originalPrice": 89.00,
+    "rating": 4.2,
+    "reviewCount": 678,
+    "category": "electronics",
+    "subcategory": "used-tripods",
+    "brand": "Neewer",
+    "stock": 8,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 5,
+    "variations": [],
+    "features": [
+      "Max height: 77 inches",
+      "Max load: 17.6 lbs",
+      "Flip locks",
+      "Pan head included",
+      "Carry bag included"
+    ],
+    "deal": false,
+    "isUsed": true,
+    "condition": "Good"
+  },
+  {
+    "id": "used_040",
+    "title": "[USED] Peak Design Travel Tripod Carbon - Excellent Condition",
+    "description": "Innovative Peak Design travel tripod in excellent condition. Ultra-compact design.",
+    "images": [
+      "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500",
+      "https://images.unsplash.com/photo-1542567455-cd733f23fbb1?w=500"
+    ],
+    "price": 115.00,
+    "originalPrice": 599.00,
+    "rating": 4.7,
+    "reviewCount": 234,
+    "category": "electronics",
+    "subcategory": "used-tripods",
+    "brand": "Peak Design",
+    "stock": 2,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 3,
+    "variations": [],
+    "features": [
+      "Carbon fiber legs",
+      "Ultra-compact collapsed",
+      "Max load: 20 lbs",
+      "Built-in ball head",
+      "Universal phone mount"
+    ],
+    "deal": true,
+    "isUsed": true,
+    "condition": "Excellent"
+  },
+  {
+    "id": "used_041",
+    "title": "[USED] Vanguard VEO 2 265CB - Very Good Condition",
+    "description": "Vanguard carbon fiber tripod in very good condition. Lightweight and sturdy.",
+    "images": [
+      "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500",
+      "https://images.unsplash.com/photo-1542567455-cd733f23fbb1?w=500"
+    ],
+    "price": 88.00,
+    "originalPrice": 189.00,
+    "rating": 4.5,
+    "reviewCount": 198,
+    "category": "electronics",
+    "subcategory": "used-tripods",
+    "brand": "Vanguard",
+    "stock": 3,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 4,
+    "variations": [],
+    "features": [
+      "Carbon fiber legs",
+      "Max load: 13.2 lbs",
+      "Max height: 59.3 inches",
+      "Anti-shock rubber feet",
+      "Ball head included"
+    ],
+    "deal": false,
+    "isUsed": true,
+    "condition": "Very Good"
+  },
+  {
+    "id": "used_042",
+    "title": "[USED] Zomei Z669C Carbon Fiber Tripod - Good Condition",
+    "description": "Affordable Zomei carbon fiber tripod in good condition. Great value for travel photographers.",
+    "images": [
+      "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500",
+      "https://images.unsplash.com/photo-1542567455-cd733f23fbb1?w=500"
+    ],
+    "price": 65.00,
+    "originalPrice": 129.00,
+    "rating": 4.3,
+    "reviewCount": 456,
+    "category": "electronics",
+    "subcategory": "used-tripods",
+    "brand": "Zomei",
+    "stock": 5,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 5,
+    "variations": [],
+    "features": [
+      "Carbon fiber construction",
+      "Max load: 26.5 lbs",
+      "Converts to monopod",
+      "Ball head included",
+      "Twist lock legs"
+    ],
+    "deal": true,
+    "isUsed": true,
+    "condition": "Good"
+  },
+  {
+    "id": "used_043",
+    "title": "[USED] Manfrotto 190XPRO4 Aluminum Tripod - Excellent Condition",
+    "description": "Professional Manfrotto 190 series tripod in excellent condition. 90-degree center column.",
+    "images": [
+      "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500",
+      "https://images.unsplash.com/photo-1542567455-cd733f23fbb1?w=500"
+    ],
+    "price": 105.00,
+    "originalPrice": 219.00,
+    "rating": 4.6,
+    "reviewCount": 289,
+    "category": "electronics",
+    "subcategory": "used-tripods",
+    "brand": "Manfrotto",
+    "stock": 3,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 4,
+    "variations": [],
+    "features": [
+      "90-degree column mechanism",
+      "Max load: 13.2 lbs",
+      "Max height: 63 inches",
+      "4-section legs",
+      "Quick power lock"
+    ],
+    "deal": false,
+    "isUsed": true,
+    "condition": "Excellent"
+  },
+  {
+    "id": "used_044",
+    "title": "[USED] Joby GorillaPod 3K Kit - Very Good Condition",
+    "description": "Compact Joby GorillaPod 3K in very good condition. Great for smaller cameras and phones.",
+    "images": [
+      "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500",
+      "https://images.unsplash.com/photo-1542567455-cd733f23fbb1?w=500"
+    ],
+    "price": 55.00,
+    "originalPrice": 99.00,
+    "rating": 4.4,
+    "reviewCount": 678,
+    "category": "electronics",
+    "subcategory": "used-tripods",
+    "brand": "Joby",
+    "stock": 7,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 4,
+    "variations": [],
+    "features": [
+      "Max load: 6.6 lbs",
+      "Flexible wrapping legs",
+      "Ball head included",
+      "Compact size",
+      "Rubber grip feet"
+    ],
+    "deal": false,
+    "isUsed": true,
+    "condition": "Very Good"
+  },
+  {
+    "id": "used_045",
+    "title": "[USED] Slik Pro 700DX Tripod - Good Condition",
+    "description": "Heavy-duty Slik Pro tripod in good condition. Great for studio and outdoor use.",
+    "images": [
+      "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500",
+      "https://images.unsplash.com/photo-1542567455-cd733f23fbb1?w=500"
+    ],
+    "price": 75.00,
+    "originalPrice": 159.00,
+    "rating": 4.4,
+    "reviewCount": 234,
+    "category": "electronics",
+    "subcategory": "used-tripods",
+    "brand": "Slik",
+    "stock": 4,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 5,
+    "variations": [],
+    "features": [
+      "Max load: 15.4 lbs",
+      "Max height: 74.8 inches",
+      "3-way pan head",
+      "Aluminum construction",
+      "Quick shoe system"
+    ],
+    "deal": false,
+    "isUsed": true,
+    "condition": "Good"
+  },
+  {
+    "id": "used_046",
+    "title": "[USED] MeFOTO RoadTrip Classic Tripod - Excellent Condition",
+    "description": "Colorful MeFOTO RoadTrip tripod in excellent condition. Converts to monopod. Travel-friendly.",
+    "images": [
+      "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500",
+      "https://images.unsplash.com/photo-1542567455-cd733f23fbb1?w=500"
+    ],
+    "price": 82.00,
+    "originalPrice": 169.00,
+    "rating": 4.5,
+    "reviewCount": 345,
+    "category": "electronics",
+    "subcategory": "used-tripods",
+    "brand": "MeFOTO",
+    "stock": 3,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 4,
+    "variations": [],
+    "features": [
+      "Converts to monopod",
+      "Max load: 17.6 lbs",
+      "Max height: 61.6 inches",
+      "Ball head included",
+      "5-section legs"
+    ],
+    "deal": true,
+    "isUsed": true,
+    "condition": "Excellent"
+  },
+  {
+    "id": "used_047",
+    "title": "[USED] AmazonBasics 60-Inch Lightweight Tripod - Fair Condition",
+    "description": "Budget AmazonBasics tripod in fair condition. Works well for casual photography.",
+    "images": [
+      "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500",
+      "https://images.unsplash.com/photo-1542567455-cd733f23fbb1?w=500"
+    ],
+    "price": 50.00,
+    "originalPrice": 79.00,
+    "rating": 4.1,
+    "reviewCount": 1234,
+    "category": "electronics",
+    "subcategory": "used-tripods",
+    "brand": "AmazonBasics",
+    "stock": 10,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 5,
+    "variations": [],
+    "features": [
+      "Max height: 60 inches",
+      "Max load: 6.6 lbs",
+      "3-way head",
+      "Quick release plate",
+      "Carry bag included"
+    ],
+    "deal": false,
+    "isUsed": true,
+    "condition": "Fair"
+  },
+  {
+    "id": "used_048",
+    "title": "[USED] Benro Slim Aluminum Video Tripod - Very Good Condition",
+    "description": "Benro Slim video tripod in very good condition. Fluid head for smooth video panning.",
+    "images": [
+      "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500",
+      "https://images.unsplash.com/photo-1542567455-cd733f23fbb1?w=500"
+    ],
+    "price": 98.00,
+    "originalPrice": 199.00,
+    "rating": 4.5,
+    "reviewCount": 178,
+    "category": "electronics",
+    "subcategory": "used-tripods",
+    "brand": "Benro",
+    "stock": 2,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 4,
+    "variations": [],
+    "features": [
+      "Fluid drag pan head",
+      "Max load: 8.8 lbs",
+      "Max height: 64 inches",
+      "Reversible column",
+      "Twist lock legs"
+    ],
+    "deal": false,
+    "isUsed": true,
+    "condition": "Very Good"
+  },
+  {
+    "id": "used_049",
+    "title": "[USED] Oben CT-3581 Carbon Fiber Tripod - Excellent Condition",
+    "description": "Premium Oben carbon fiber tripod in excellent condition. Lightweight yet sturdy.",
+    "images": [
+      "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500",
+      "https://images.unsplash.com/photo-1542567455-cd733f23fbb1?w=500"
+    ],
+    "price": 108.00,
+    "originalPrice": 249.00,
+    "rating": 4.6,
+    "reviewCount": 167,
+    "category": "electronics",
+    "subcategory": "used-tripods",
+    "brand": "Oben",
+    "stock": 2,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 4,
+    "variations": [],
+    "features": [
+      "Carbon fiber legs",
+      "Max load: 26.5 lbs",
+      "Max height: 65 inches",
+      "Twist lock legs",
+      "Reversible center column"
+    ],
+    "deal": false,
+    "isUsed": true,
+    "condition": "Excellent"
+  },
+  {
+    "id": "used_050",
+    "title": "[USED] Manfrotto Element MII Aluminum Tripod - Like New",
+    "description": "Modern Manfrotto Element tripod in like-new condition. Great for travel and everyday use.",
+    "images": [
+      "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500",
+      "https://images.unsplash.com/photo-1542567455-cd733f23fbb1?w=500"
+    ],
+    "price": 68.00,
+    "originalPrice": 139.00,
+    "rating": 4.5,
+    "reviewCount": 289,
+    "category": "electronics",
+    "subcategory": "used-tripods",
+    "brand": "Manfrotto",
+    "stock": 4,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 3,
+    "variations": [],
+    "features": [
+      "Max load: 17.6 lbs",
+      "Max height: 64.2 inches",
+      "Twist lock legs",
+      "Ball head included",
+      "Carry case included"
+    ],
+    "deal": true,
+    "isUsed": true,
+    "condition": "Like New"
+  }
+]
