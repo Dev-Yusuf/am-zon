@@ -151,6 +151,43 @@
   margin-bottom: 15px;
 }
 
+/* Form Styles */
+.form-group {
+  margin-bottom: 18px;
+}
+
+.form-label {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  color: #0f1111;
+  margin-bottom: 6px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px 14px;
+  font-size: 16px;
+  border: 1px solid #a6a6a6;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #0f1111;
+  box-sizing: border-box;
+  transition: border-color 0.1s;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #e77600;
+  box-shadow: 0 0 0 3px rgba(231, 118, 0, 0.1);
+}
+
+.form-input::placeholder {
+  color: #767676;
+}
+
 .form-row {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
@@ -552,8 +589,25 @@
 
 /* Responsive */
 @media (max-width: 900px) {
+  .checkout.container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .checkout {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+
+  .checkout__title {
+    font-size: 22px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+  }
+
   .checkout__content {
     flex-direction: column;
+    gap: 15px;
   }
 
   .checkout__sidebar {
@@ -562,23 +616,238 @@
     order: -1;
   }
 
+  .checkout__section {
+    margin-bottom: 15px;
+  }
+
+  .section__header {
+    padding: 12px 15px;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .section__header h2 {
+    font-size: 16px;
+  }
+
+  .section__number {
+    width: 24px;
+    height: 24px;
+    font-size: 12px;
+  }
+
+  .section__content {
+    padding: 15px;
+  }
+
+  /* Form Improvements for Mobile */
+  .address-form {
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+
+  .form-group {
+    margin-bottom: 16px;
+  }
+
+  .form-label {
+    font-size: 13px !important;
+    margin-bottom: 5px;
+  }
+
+  .form-input {
+    padding: 14px 12px !important;
+    font-size: 16px !important; /* Prevents zoom on iOS */
+    border-radius: 3px;
+    min-height: 44px; /* Better touch target */
+  }
+
   .form-row {
     grid-template-columns: 1fr;
+    gap: 16px;
   }
 
-  .wallet-display {
-    flex-direction: column;
-  }
-
-  .btn-copy {
+  .section__continue {
     width: 100%;
+    padding: 14px 20px;
+    font-size: 16px;
+    margin-top: 15px;
+  }
+
+  /* BTC Payment Mobile */
+  .btc-payment-section {
+    max-width: 100%;
+  }
+
+  .payment-instructions {
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+
+  .payment-instructions h3 {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+
+  .payment-instructions ol {
+    margin-left: 18px;
+  }
+
+  .payment-instructions li {
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+
+  .btc-amount-display {
+    padding: 20px 15px;
+    margin-bottom: 20px;
   }
 
   .amount-btc {
     font-size: 24px;
   }
 
+  .amount-usd {
+    font-size: 14px;
+  }
+
+  .wallet-label {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  .wallet-display {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .wallet-address {
+    padding: 12px;
+    font-size: 12px;
+    word-break: break-all;
+  }
+
+  .btn-copy {
+    width: 100%;
+    padding: 14px;
+    font-size: 15px;
+  }
+
+  .qr-code-box {
+    width: 180px;
+    height: 180px;
+  }
+
+  .qr-icon {
+    font-size: 40px;
+  }
+
+  .btn-confirm-payment {
+    padding: 16px;
+    font-size: 16px;
+  }
+
   .payment-confirmed {
     padding: 40px 20px;
+  }
+
+  .success-icon {
+    width: 70px;
+    height: 70px;
+    font-size: 40px;
+  }
+
+  .payment-confirmed h3 {
+    font-size: 20px;
+  }
+
+  .payment-confirmed p {
+    font-size: 14px;
+  }
+
+  /* Sidebar Mobile */
+  .order-summary {
+    padding: 15px;
+  }
+
+  .order-summary h3 {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+
+  .summary__row {
+    font-size: 13px;
+  }
+
+  .summary__total {
+    font-size: 16px;
+  }
+
+  .items-preview {
+    padding: 12px;
+  }
+
+  .item-preview {
+    width: 45px;
+    height: 45px;
+  }
+}
+
+/* Small Mobile Devices */
+@media (max-width: 480px) {
+  .checkout.container {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .checkout__title {
+    font-size: 20px;
+  }
+
+  .section__header {
+    padding: 10px 12px;
+  }
+
+  .section__header h2 {
+    font-size: 15px;
+  }
+
+  .section__content {
+    padding: 12px;
+  }
+
+  .address-form {
+    padding: 12px;
+  }
+
+  .form-input {
+    padding: 12px;
+    font-size: 16px;
+  }
+
+  .btc-amount-display {
+    padding: 18px 12px;
+  }
+
+  .amount-btc {
+    font-size: 22px;
+  }
+
+  .wallet-address {
+    font-size: 11px;
+    padding: 10px;
+  }
+
+  .payment-instructions {
+    padding: 12px;
+  }
+
+  .payment-instructions li {
+    font-size: 13px;
+  }
+
+  .qr-code-box {
+    width: 160px;
+    height: 160px;
   }
 }
