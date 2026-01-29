@@ -7,8 +7,8 @@
       "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=500",
       "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?w=500"
     ],
-    "price": 1199.00,
-    "originalPrice": 1299.00,
+    "price": 1199,
+    "originalPrice": 1299,
     "rating": 4.7,
     "reviewCount": 15234,
     "category": "electronics",
@@ -19,8 +19,23 @@
     "freeShipping": true,
     "deliveryDays": 2,
     "variations": [
-      { "type": "color", "options": ["Natural Titanium", "Blue Titanium", "White Titanium", "Black Titanium"] },
-      { "type": "storage", "options": ["256GB", "512GB", "1TB"] }
+      {
+        "type": "color",
+        "options": [
+          "Natural Titanium",
+          "Blue Titanium",
+          "White Titanium",
+          "Black Titanium"
+        ]
+      },
+      {
+        "type": "storage",
+        "options": [
+          "256GB",
+          "512GB",
+          "1TB"
+        ]
+      }
     ],
     "features": [
       "6.7-inch Super Retina XDR display",
@@ -51,8 +66,23 @@
     "freeShipping": true,
     "deliveryDays": 2,
     "variations": [
-      { "type": "color", "options": ["Titanium Black", "Titanium Gray", "Titanium Violet", "Titanium Yellow"] },
-      { "type": "storage", "options": ["256GB", "512GB", "1TB"] }
+      {
+        "type": "color",
+        "options": [
+          "Titanium Black",
+          "Titanium Gray",
+          "Titanium Violet",
+          "Titanium Yellow"
+        ]
+      },
+      {
+        "type": "storage",
+        "options": [
+          "256GB",
+          "512GB",
+          "1TB"
+        ]
+      }
     ],
     "features": [
       "6.8-inch Dynamic AMOLED 2X",
@@ -71,7 +101,7 @@
       "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=500",
       "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=500"
     ],
-    "price": 348.00,
+    "price": 348,
     "originalPrice": 399.99,
     "rating": 4.8,
     "reviewCount": 23456,
@@ -83,7 +113,14 @@
     "freeShipping": true,
     "deliveryDays": 1,
     "variations": [
-      { "type": "color", "options": ["Black", "Silver", "Midnight Blue"] }
+      {
+        "type": "color",
+        "options": [
+          "Black",
+          "Silver",
+          "Midnight Blue"
+        ]
+      }
     ],
     "features": [
       "Industry-leading noise cancellation",
@@ -102,8 +139,8 @@
       "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500",
       "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?w=500"
     ],
-    "price": 3499.00,
-    "originalPrice": 3999.00,
+    "price": 3499,
+    "originalPrice": 3999,
     "rating": 4.9,
     "reviewCount": 4521,
     "category": "computers",
@@ -114,8 +151,21 @@
     "freeShipping": true,
     "deliveryDays": 3,
     "variations": [
-      { "type": "color", "options": ["Space Black", "Silver"] },
-      { "type": "memory", "options": ["36GB", "48GB", "128GB"] }
+      {
+        "type": "color",
+        "options": [
+          "Space Black",
+          "Silver"
+        ]
+      },
+      {
+        "type": "memory",
+        "options": [
+          "36GB",
+          "48GB",
+          "128GB"
+        ]
+      }
     ],
     "features": [
       "Apple M3 Max chip",
@@ -146,8 +196,21 @@
     "freeShipping": true,
     "deliveryDays": 2,
     "variations": [
-      { "type": "color", "options": ["Platinum Silver", "Frost White"] },
-      { "type": "memory", "options": ["16GB", "32GB", "64GB"] }
+      {
+        "type": "color",
+        "options": [
+          "Platinum Silver",
+          "Frost White"
+        ]
+      },
+      {
+        "type": "memory",
+        "options": [
+          "16GB",
+          "32GB",
+          "64GB"
+        ]
+      }
     ],
     "features": [
       "15.6-inch OLED 3.5K display",
@@ -167,7 +230,7 @@
       "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=500"
     ],
     "price": 159.99,
-    "originalPrice": 180.00,
+    "originalPrice": 180,
     "rating": 4.6,
     "reviewCount": 18234,
     "category": "fashion",
@@ -178,8 +241,27 @@
     "freeShipping": true,
     "deliveryDays": 3,
     "variations": [
-      { "type": "color", "options": ["Black/White", "University Red", "Royal Blue", "Triple Black"] },
-      { "type": "size", "options": ["7", "8", "9", "10", "11", "12", "13"] }
+      {
+        "type": "color",
+        "options": [
+          "Black/White",
+          "University Red",
+          "Royal Blue",
+          "Triple Black"
+        ]
+      },
+      {
+        "type": "size",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13"
+        ]
+      }
     ],
     "features": [
       "Max Air 270 unit for cushioning",
@@ -198,8 +280,8 @@
       "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500",
       "https://images.unsplash.com/photo-1582552938357-32b906df40cb?w=500"
     ],
-    "price": 59.50,
-    "originalPrice": 79.50,
+    "price": 59.5,
+    "originalPrice": 79.5,
     "rating": 4.4,
     "reviewCount": 45678,
     "category": "fashion",
@@ -210,8 +292,27 @@
     "freeShipping": true,
     "deliveryDays": 2,
     "variations": [
-      { "type": "color", "options": ["Medium Stonewash", "Dark Stonewash", "Black", "Rinse"] },
-      { "type": "size", "options": ["30x30", "32x30", "32x32", "34x32", "34x34", "36x32", "38x32"] }
+      {
+        "type": "color",
+        "options": [
+          "Medium Stonewash",
+          "Dark Stonewash",
+          "Black",
+          "Rinse"
+        ]
+      },
+      {
+        "type": "size",
+        "options": [
+          "30x30",
+          "32x30",
+          "32x32",
+          "34x32",
+          "34x34",
+          "36x32",
+          "38x32"
+        ]
+      }
     ],
     "features": [
       "100% Cotton",
@@ -242,7 +343,14 @@
     "freeShipping": true,
     "deliveryDays": 1,
     "variations": [
-      { "type": "size", "options": ["3 Quart", "6 Quart", "8 Quart"] }
+      {
+        "type": "size",
+        "options": [
+          "3 Quart",
+          "6 Quart",
+          "8 Quart"
+        ]
+      }
     ],
     "features": [
       "7-in-1 functionality",
@@ -273,7 +381,13 @@
     "freeShipping": true,
     "deliveryDays": 2,
     "variations": [
-      { "type": "color", "options": ["Yellow/Iron/Nickel", "Blue/Gold"] }
+      {
+        "type": "color",
+        "options": [
+          "Yellow/Iron/Nickel",
+          "Blue/Gold"
+        ]
+      }
     ],
     "features": [
       "Laser reveals invisible dust",
@@ -304,7 +418,15 @@
     "freeShipping": true,
     "deliveryDays": 1,
     "variations": [
-      { "type": "format", "options": ["Hardcover", "Paperback", "Kindle", "Audiobook"] }
+      {
+        "type": "format",
+        "options": [
+          "Hardcover",
+          "Paperback",
+          "Kindle",
+          "Audiobook"
+        ]
+      }
     ],
     "features": [
       "256 pages",
@@ -364,7 +486,13 @@
     "freeShipping": true,
     "deliveryDays": 2,
     "variations": [
-      { "type": "edition", "options": ["Standard", "Digital"] }
+      {
+        "type": "edition",
+        "options": [
+          "Standard",
+          "Digital"
+        ]
+      }
     ],
     "features": [
       "Custom AMD CPU and GPU",
@@ -395,7 +523,14 @@
     "freeShipping": true,
     "deliveryDays": 1,
     "variations": [
-      { "type": "color", "options": ["Black", "Coral", "Porcelain"] }
+      {
+        "type": "color",
+        "options": [
+          "Black",
+          "Coral",
+          "Porcelain"
+        ]
+      }
     ],
     "features": [
       "Built-in GPS",
@@ -426,7 +561,13 @@
     "freeShipping": true,
     "deliveryDays": 2,
     "variations": [
-      { "type": "size", "options": ["6.5 Quart", "8 Quart"] }
+      {
+        "type": "size",
+        "options": [
+          "6.5 Quart",
+          "8 Quart"
+        ]
+      }
     ],
     "features": [
       "TenderCrisp technology",
@@ -445,8 +586,8 @@
       "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500",
       "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=500"
     ],
-    "price": 279.00,
-    "originalPrice": 329.00,
+    "price": 279,
+    "originalPrice": 329,
     "rating": 4.6,
     "reviewCount": 18234,
     "category": "electronics",
@@ -457,7 +598,14 @@
     "freeShipping": true,
     "deliveryDays": 1,
     "variations": [
-      { "type": "color", "options": ["Black", "White Smoke", "Triple Black"] }
+      {
+        "type": "color",
+        "options": [
+          "Black",
+          "White Smoke",
+          "Triple Black"
+        ]
+      }
     ],
     "features": [
       "World-class noise cancellation",
@@ -488,7 +636,14 @@
     "freeShipping": true,
     "deliveryDays": 5,
     "variations": [
-      { "type": "size", "options": ["55\"", "65\"", "77\""] }
+      {
+        "type": "size",
+        "options": [
+          "55\"",
+          "65\"",
+          "77\""
+        ]
+      }
     ],
     "features": [
       "OLED 4K display",
@@ -508,7 +663,7 @@
       "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=500"
     ],
     "price": 189.99,
-    "originalPrice": 210.00,
+    "originalPrice": 210,
     "rating": 4.7,
     "reviewCount": 9876,
     "category": "fashion",
@@ -519,8 +674,26 @@
     "freeShipping": true,
     "deliveryDays": 2,
     "variations": [
-      { "type": "color", "options": ["Core Black", "Cloud White", "Solar Red", "Navy"] },
-      { "type": "size", "options": ["7", "8", "9", "10", "11", "12"] }
+      {
+        "type": "color",
+        "options": [
+          "Core Black",
+          "Cloud White",
+          "Solar Red",
+          "Navy"
+        ]
+      },
+      {
+        "type": "size",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12"
+        ]
+      }
     ],
     "features": [
       "BOOST midsole",
@@ -551,7 +724,16 @@
     "freeShipping": true,
     "deliveryDays": 3,
     "variations": [
-      { "type": "color", "options": ["Empire Red", "Onyx Black", "Silver", "Pistachio", "Matcha"] }
+      {
+        "type": "color",
+        "options": [
+          "Empire Red",
+          "Onyx Black",
+          "Silver",
+          "Pistachio",
+          "Matcha"
+        ]
+      }
     ],
     "features": [
       "5-quart stainless steel bowl",
@@ -570,8 +752,8 @@
       "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
       "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
     ],
-    "price": 2499.00,
-    "originalPrice": 2799.00,
+    "price": 2499,
+    "originalPrice": 2799,
     "rating": 4.8,
     "reviewCount": 2345,
     "category": "electronics",
@@ -582,7 +764,14 @@
     "freeShipping": true,
     "deliveryDays": 2,
     "variations": [
-      { "type": "kit", "options": ["Body Only", "With 24-105mm Lens", "With 24-70mm Lens"] }
+      {
+        "type": "kit",
+        "options": [
+          "Body Only",
+          "With 24-105mm Lens",
+          "With 24-70mm Lens"
+        ]
+      }
     ],
     "features": [
       "24.2 megapixel sensor",
@@ -613,7 +802,15 @@
     "freeShipping": true,
     "deliveryDays": 1,
     "variations": [
-      { "type": "format", "options": ["Hardcover", "Paperback", "Kindle", "Audiobook"] }
+      {
+        "type": "format",
+        "options": [
+          "Hardcover",
+          "Paperback",
+          "Kindle",
+          "Audiobook"
+        ]
+      }
     ],
     "features": [
       "320 pages",
@@ -632,8 +829,8 @@
       "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
       "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
     ],
-    "price": 549.00,
-    "originalPrice": 899.00,
+    "price": 281.67,
+    "originalPrice": 426.19,
     "rating": 4.5,
     "reviewCount": 234,
     "category": "electronics",
@@ -663,8 +860,8 @@
       "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
       "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
     ],
-    "price": 485.00,
-    "originalPrice": 1199.00,
+    "price": 174.92,
+    "originalPrice": 320.99,
     "rating": 4.6,
     "reviewCount": 189,
     "category": "electronics",
@@ -694,8 +891,8 @@
       "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
       "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
     ],
-    "price": 725.00,
-    "originalPrice": 1499.00,
+    "price": 314.02,
+    "originalPrice": 477.38,
     "rating": 4.7,
     "reviewCount": 312,
     "category": "electronics",
@@ -725,8 +922,8 @@
       "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
       "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
     ],
-    "price": 595.00,
-    "originalPrice": 899.00,
+    "price": 183.57,
+    "originalPrice": 320.05,
     "rating": 4.8,
     "reviewCount": 156,
     "category": "electronics",
@@ -756,8 +953,8 @@
       "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
       "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
     ],
-    "price": 789.00,
-    "originalPrice": 1699.00,
+    "price": 304.25,
+    "originalPrice": 496.33,
     "rating": 4.7,
     "reviewCount": 278,
     "category": "electronics",
@@ -787,8 +984,8 @@
       "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
       "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
     ],
-    "price": 625.00,
-    "originalPrice": 1399.00,
+    "price": 347.15,
+    "originalPrice": 654.34,
     "rating": 4.4,
     "reviewCount": 445,
     "category": "electronics",
@@ -818,8 +1015,8 @@
       "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
       "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
     ],
-    "price": 465.00,
-    "originalPrice": 749.00,
+    "price": 178.98,
+    "originalPrice": 296.27,
     "rating": 4.5,
     "reviewCount": 167,
     "category": "electronics",
@@ -849,8 +1046,8 @@
       "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
       "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
     ],
-    "price": 575.00,
-    "originalPrice": 999.00,
+    "price": 287.82,
+    "originalPrice": 447.98,
     "rating": 4.6,
     "reviewCount": 198,
     "category": "electronics",
@@ -880,8 +1077,8 @@
       "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
       "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
     ],
-    "price": 799.00,
-    "originalPrice": 1299.00,
+    "price": 168.44,
+    "originalPrice": 283.06,
     "rating": 4.8,
     "reviewCount": 234,
     "category": "electronics",
@@ -911,8 +1108,8 @@
       "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
       "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
     ],
-    "price": 545.00,
-    "originalPrice": 849.00,
+    "price": 306.31,
+    "originalPrice": 569.68,
     "rating": 4.6,
     "reviewCount": 145,
     "category": "electronics",
@@ -942,8 +1139,8 @@
       "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
       "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
     ],
-    "price": 425.00,
-    "originalPrice": 699.00,
+    "price": 208.17,
+    "originalPrice": 402.76,
     "rating": 4.5,
     "reviewCount": 289,
     "category": "electronics",
@@ -973,8 +1170,8 @@
       "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
       "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
     ],
-    "price": 385.00,
-    "originalPrice": 749.00,
+    "price": 196.02,
+    "originalPrice": 388.37,
     "rating": 4.4,
     "reviewCount": 312,
     "category": "electronics",
@@ -1004,8 +1201,8 @@
       "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
       "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
     ],
-    "price": 445.00,
-    "originalPrice": 849.00,
+    "price": 246.21,
+    "originalPrice": 454.18,
     "rating": 4.6,
     "reviewCount": 456,
     "category": "electronics",
@@ -1035,8 +1232,8 @@
       "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
       "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
     ],
-    "price": 495.00,
-    "originalPrice": 999.00,
+    "price": 311.55,
+    "originalPrice": 593.7,
     "rating": 4.5,
     "reviewCount": 234,
     "category": "electronics",
@@ -1066,8 +1263,8 @@
       "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
       "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
     ],
-    "price": 395.00,
-    "originalPrice": 699.00,
+    "price": 253.12,
+    "originalPrice": 489.8,
     "rating": 4.4,
     "reviewCount": 178,
     "category": "electronics",
@@ -1097,8 +1294,8 @@
       "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
       "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
     ],
-    "price": 799.00,
-    "originalPrice": 1999.00,
+    "price": 335.14,
+    "originalPrice": 592.76,
     "rating": 4.8,
     "reviewCount": 567,
     "category": "electronics",
@@ -1128,8 +1325,8 @@
       "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
       "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
     ],
-    "price": 525.00,
-    "originalPrice": 899.00,
+    "price": 318.36,
+    "originalPrice": 636.47,
     "rating": 4.5,
     "reviewCount": 345,
     "category": "electronics",
@@ -1159,8 +1356,8 @@
       "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
       "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
     ],
-    "price": 765.00,
-    "originalPrice": 1799.00,
+    "price": 171.08,
+    "originalPrice": 318.78,
     "rating": 4.7,
     "reviewCount": 289,
     "category": "electronics",
@@ -1190,8 +1387,8 @@
       "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
       "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
     ],
-    "price": 695.00,
-    "originalPrice": 1699.00,
+    "price": 224.35,
+    "originalPrice": 359.64,
     "rating": 4.6,
     "reviewCount": 198,
     "category": "electronics",
@@ -1221,8 +1418,8 @@
       "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
       "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
     ],
-    "price": 685.00,
-    "originalPrice": 999.00,
+    "price": 290.45,
+    "originalPrice": 460.88,
     "rating": 4.7,
     "reviewCount": 234,
     "category": "electronics",
@@ -1252,8 +1449,8 @@
       "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
       "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
     ],
-    "price": 565.00,
-    "originalPrice": 1299.00,
+    "price": 340.77,
+    "originalPrice": 651.74,
     "rating": 4.4,
     "reviewCount": 412,
     "category": "electronics",
@@ -1283,8 +1480,8 @@
       "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
       "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
     ],
-    "price": 795.00,
-    "originalPrice": 1999.00,
+    "price": 182.43,
+    "originalPrice": 313.01,
     "rating": 4.7,
     "reviewCount": 178,
     "category": "electronics",
@@ -1314,8 +1511,8 @@
       "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
       "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
     ],
-    "price": 285.00,
-    "originalPrice": 649.00,
+    "price": 169.83,
+    "originalPrice": 275.4,
     "rating": 4.3,
     "reviewCount": 678,
     "category": "electronics",
@@ -1345,8 +1542,8 @@
       "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
       "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
     ],
-    "price": 799.00,
-    "originalPrice": 2999.00,
+    "price": 251.3,
+    "originalPrice": 404,
     "rating": 4.9,
     "reviewCount": 234,
     "category": "electronics",
@@ -1376,8 +1573,8 @@
       "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
       "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
     ],
-    "price": 265.00,
-    "originalPrice": 399.00,
+    "price": 211.49,
+    "originalPrice": 395,
     "rating": 4.4,
     "reviewCount": 345,
     "category": "electronics",
@@ -1407,8 +1604,8 @@
       "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
       "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
     ],
-    "price": 785.00,
-    "originalPrice": 1399.00,
+    "price": 188.39,
+    "originalPrice": 335.4,
     "rating": 4.7,
     "reviewCount": 189,
     "category": "electronics",
@@ -1438,8 +1635,8 @@
       "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
       "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
     ],
-    "price": 485.00,
-    "originalPrice": 749.00,
+    "price": 152.21,
+    "originalPrice": 289.24,
     "rating": 4.6,
     "reviewCount": 456,
     "category": "electronics",
@@ -1469,8 +1666,8 @@
       "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
       "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
     ],
-    "price": 345.00,
-    "originalPrice": 699.00,
+    "price": 236.9,
+    "originalPrice": 431,
     "rating": 4.5,
     "reviewCount": 267,
     "category": "electronics",
@@ -1500,8 +1697,8 @@
       "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
       "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
     ],
-    "price": 695.00,
-    "originalPrice": 1199.00,
+    "price": 294.62,
+    "originalPrice": 571.57,
     "rating": 4.7,
     "reviewCount": 234,
     "category": "electronics",
@@ -1531,8 +1728,8 @@
       "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
       "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=500"
     ],
-    "price": 575.00,
-    "originalPrice": 999.00,
+    "price": 203.51,
+    "originalPrice": 380.53,
     "rating": 4.4,
     "reviewCount": 189,
     "category": "electronics",
@@ -1562,8 +1759,8 @@
       "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500",
       "https://images.unsplash.com/photo-1542567455-cd733f23fbb1?w=500"
     ],
-    "price": 115.00,
-    "originalPrice": 229.00,
+    "price": 115,
+    "originalPrice": 229,
     "rating": 4.7,
     "reviewCount": 345,
     "category": "electronics",
@@ -1593,8 +1790,8 @@
       "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500",
       "https://images.unsplash.com/photo-1542567455-cd733f23fbb1?w=500"
     ],
-    "price": 95.00,
-    "originalPrice": 199.00,
+    "price": 95,
+    "originalPrice": 199,
     "rating": 4.6,
     "reviewCount": 234,
     "category": "electronics",
@@ -1624,8 +1821,8 @@
       "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500",
       "https://images.unsplash.com/photo-1542567455-cd733f23fbb1?w=500"
     ],
-    "price": 85.00,
-    "originalPrice": 149.00,
+    "price": 85,
+    "originalPrice": 149,
     "rating": 4.5,
     "reviewCount": 567,
     "category": "electronics",
@@ -1655,8 +1852,8 @@
       "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500",
       "https://images.unsplash.com/photo-1542567455-cd733f23fbb1?w=500"
     ],
-    "price": 118.00,
-    "originalPrice": 279.00,
+    "price": 118,
+    "originalPrice": 279,
     "rating": 4.7,
     "reviewCount": 189,
     "category": "electronics",
@@ -1686,8 +1883,8 @@
       "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500",
       "https://images.unsplash.com/photo-1542567455-cd733f23fbb1?w=500"
     ],
-    "price": 78.00,
-    "originalPrice": 179.00,
+    "price": 78,
+    "originalPrice": 179,
     "rating": 4.5,
     "reviewCount": 423,
     "category": "electronics",
@@ -1717,8 +1914,8 @@
       "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500",
       "https://images.unsplash.com/photo-1542567455-cd733f23fbb1?w=500"
     ],
-    "price": 92.00,
-    "originalPrice": 199.00,
+    "price": 92,
+    "originalPrice": 199,
     "rating": 4.6,
     "reviewCount": 234,
     "category": "electronics",
@@ -1748,8 +1945,8 @@
       "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500",
       "https://images.unsplash.com/photo-1542567455-cd733f23fbb1?w=500"
     ],
-    "price": 72.00,
-    "originalPrice": 139.00,
+    "price": 72,
+    "originalPrice": 139,
     "rating": 4.4,
     "reviewCount": 312,
     "category": "electronics",
@@ -1779,8 +1976,8 @@
       "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500",
       "https://images.unsplash.com/photo-1542567455-cd733f23fbb1?w=500"
     ],
-    "price": 120.00,
-    "originalPrice": 599.00,
+    "price": 120,
+    "originalPrice": 599,
     "rating": 4.9,
     "reviewCount": 145,
     "category": "electronics",
@@ -1810,8 +2007,8 @@
       "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500",
       "https://images.unsplash.com/photo-1542567455-cd733f23fbb1?w=500"
     ],
-    "price": 52.00,
-    "originalPrice": 89.00,
+    "price": 52,
+    "originalPrice": 89,
     "rating": 4.2,
     "reviewCount": 678,
     "category": "electronics",
@@ -1841,8 +2038,8 @@
       "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500",
       "https://images.unsplash.com/photo-1542567455-cd733f23fbb1?w=500"
     ],
-    "price": 115.00,
-    "originalPrice": 599.00,
+    "price": 115,
+    "originalPrice": 599,
     "rating": 4.7,
     "reviewCount": 234,
     "category": "electronics",
@@ -1872,8 +2069,8 @@
       "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500",
       "https://images.unsplash.com/photo-1542567455-cd733f23fbb1?w=500"
     ],
-    "price": 88.00,
-    "originalPrice": 189.00,
+    "price": 88,
+    "originalPrice": 189,
     "rating": 4.5,
     "reviewCount": 198,
     "category": "electronics",
@@ -1903,8 +2100,8 @@
       "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500",
       "https://images.unsplash.com/photo-1542567455-cd733f23fbb1?w=500"
     ],
-    "price": 65.00,
-    "originalPrice": 129.00,
+    "price": 65,
+    "originalPrice": 129,
     "rating": 4.3,
     "reviewCount": 456,
     "category": "electronics",
@@ -1934,8 +2131,8 @@
       "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500",
       "https://images.unsplash.com/photo-1542567455-cd733f23fbb1?w=500"
     ],
-    "price": 105.00,
-    "originalPrice": 219.00,
+    "price": 105,
+    "originalPrice": 219,
     "rating": 4.6,
     "reviewCount": 289,
     "category": "electronics",
@@ -1965,8 +2162,8 @@
       "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500",
       "https://images.unsplash.com/photo-1542567455-cd733f23fbb1?w=500"
     ],
-    "price": 55.00,
-    "originalPrice": 99.00,
+    "price": 55,
+    "originalPrice": 99,
     "rating": 4.4,
     "reviewCount": 678,
     "category": "electronics",
@@ -1996,8 +2193,8 @@
       "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500",
       "https://images.unsplash.com/photo-1542567455-cd733f23fbb1?w=500"
     ],
-    "price": 75.00,
-    "originalPrice": 159.00,
+    "price": 75,
+    "originalPrice": 159,
     "rating": 4.4,
     "reviewCount": 234,
     "category": "electronics",
@@ -2027,8 +2224,8 @@
       "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500",
       "https://images.unsplash.com/photo-1542567455-cd733f23fbb1?w=500"
     ],
-    "price": 82.00,
-    "originalPrice": 169.00,
+    "price": 82,
+    "originalPrice": 169,
     "rating": 4.5,
     "reviewCount": 345,
     "category": "electronics",
@@ -2058,8 +2255,8 @@
       "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500",
       "https://images.unsplash.com/photo-1542567455-cd733f23fbb1?w=500"
     ],
-    "price": 50.00,
-    "originalPrice": 79.00,
+    "price": 50,
+    "originalPrice": 79,
     "rating": 4.1,
     "reviewCount": 1234,
     "category": "electronics",
@@ -2089,8 +2286,8 @@
       "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500",
       "https://images.unsplash.com/photo-1542567455-cd733f23fbb1?w=500"
     ],
-    "price": 98.00,
-    "originalPrice": 199.00,
+    "price": 98,
+    "originalPrice": 199,
     "rating": 4.5,
     "reviewCount": 178,
     "category": "electronics",
@@ -2120,8 +2317,8 @@
       "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500",
       "https://images.unsplash.com/photo-1542567455-cd733f23fbb1?w=500"
     ],
-    "price": 108.00,
-    "originalPrice": 249.00,
+    "price": 108,
+    "originalPrice": 249,
     "rating": 4.6,
     "reviewCount": 167,
     "category": "electronics",
@@ -2151,8 +2348,8 @@
       "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500",
       "https://images.unsplash.com/photo-1542567455-cd733f23fbb1?w=500"
     ],
-    "price": 68.00,
-    "originalPrice": 139.00,
+    "price": 68,
+    "originalPrice": 139,
     "rating": 4.5,
     "reviewCount": 289,
     "category": "electronics",
@@ -2171,6 +2368,161 @@
       "Carry case included"
     ],
     "deal": true,
+    "isUsed": true,
+    "condition": "Like New"
+  },
+  {
+    "id": "used_051",
+    "title": "[USED] Neewer Carbon Fiber Camera Stand - Excellent Condition",
+    "description": "Professional Neewer carbon fiber camera stand in excellent condition. Lightweight yet sturdy. Perfect for studio and outdoor use.",
+    "images": [
+      "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500",
+      "https://images.unsplash.com/photo-1542567455-cd733f23fbb1?w=500"
+    ],
+    "price": 55.13,
+    "originalPrice": 104.55,
+    "rating": 4.5,
+    "reviewCount": 110,
+    "category": "electronics",
+    "subcategory": "used-tripods",
+    "brand": "Neewer",
+    "stock": 2,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 3,
+    "variations": [],
+    "features": [
+      "Carbon fiber construction",
+      "Max load: 22 lbs",
+      "Max height: 65 inches",
+      "Twist lock legs",
+      "Quick-release plate"
+    ],
+    "deal": false,
+    "isUsed": true,
+    "condition": "Excellent"
+  },
+  {
+    "id": "used_052",
+    "title": "[USED] Manfrotto Compact Action Tripod - Very Good Condition",
+    "description": "Versatile Manfrotto compact tripod in very good condition. Great for action photography and video work.",
+    "images": [
+      "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500",
+      "https://images.unsplash.com/photo-1542567455-cd733f23fbb1?w=500"
+    ],
+    "price": 62.13,
+    "originalPrice": 109.95,
+    "rating": 4.6,
+    "reviewCount": 144,
+    "category": "electronics",
+    "subcategory": "used-tripods",
+    "brand": "Manfrotto",
+    "stock": 1,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 4,
+    "variations": [],
+    "features": [
+      "Aluminum construction",
+      "Max load: 18 lbs",
+      "Max height: 61 inches",
+      "Ball head included",
+      "Compact foldable design"
+    ],
+    "deal": false,
+    "isUsed": true,
+    "condition": "Very Good"
+  },
+  {
+    "id": "used_053",
+    "title": "[USED] Vanguard VEO 2 265AB Camera Stand - Good Condition",
+    "description": "Reliable Vanguard camera stand in good condition. Multi-angle center column for creative shooting angles.",
+    "images": [
+      "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500",
+      "https://images.unsplash.com/photo-1542567455-cd733f23fbb1?w=500"
+    ],
+    "price": 93.19,
+    "originalPrice": 154.79,
+    "rating": 4.4,
+    "reviewCount": 278,
+    "category": "electronics",
+    "subcategory": "used-tripods",
+    "brand": "Vanguard",
+    "stock": 3,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 5,
+    "variations": [],
+    "features": [
+      "Multi-angle center column",
+      "Max load: 15.4 lbs",
+      "Max height: 66 inches",
+      "Quick-flip leg locks",
+      "Ball head included"
+    ],
+    "deal": true,
+    "isUsed": true,
+    "condition": "Good"
+  },
+  {
+    "id": "used_054",
+    "title": "[USED] Benro TMA28CXL Camera Stand - Excellent Condition",
+    "description": "Heavy-duty Benro camera stand in excellent condition. Perfect for professional photography and videography.",
+    "images": [
+      "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500",
+      "https://images.unsplash.com/photo-1542567455-cd733f23fbb1?w=500"
+    ],
+    "price": 91.45,
+    "originalPrice": 160.27,
+    "rating": 4.7,
+    "reviewCount": 141,
+    "category": "electronics",
+    "subcategory": "used-tripods",
+    "brand": "Benro",
+    "stock": 1,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 4,
+    "variations": [],
+    "features": [
+      "Carbon fiber legs",
+      "Max load: 28.6 lbs",
+      "Max height: 70 inches",
+      "Twist lock system",
+      "Removable center column"
+    ],
+    "deal": true,
+    "isUsed": true,
+    "condition": "Excellent"
+  },
+  {
+    "id": "used_055",
+    "title": "[USED] Joby TelePod 1K Camera Stand - Like New",
+    "description": "Innovative Joby TelePod camera stand in like-new condition. Extends to monopod height. Perfect for travel.",
+    "images": [
+      "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500",
+      "https://images.unsplash.com/photo-1542567455-cd733f23fbb1?w=500"
+    ],
+    "price": 83.84,
+    "originalPrice": 158.7,
+    "rating": 4.5,
+    "reviewCount": 211,
+    "category": "electronics",
+    "subcategory": "used-tripods",
+    "brand": "Joby",
+    "stock": 2,
+    "prime": false,
+    "freeShipping": true,
+    "deliveryDays": 3,
+    "variations": [],
+    "features": [
+      "Converts to monopod",
+      "Max load: 11 lbs",
+      "Max height: 72 inches",
+      "Ball head included",
+      "Ultra-compact design"
+    ],
+    "deal": false,
     "isUsed": true,
     "condition": "Like New"
   }
