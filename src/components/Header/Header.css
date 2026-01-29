@@ -8,16 +8,18 @@
   display: flex;
   align-items: center;
   background-color: #131921;
-  padding: 8px 15px;
-  gap: 10px;
+  padding: 0 15px;
+  gap: 8px;
+  min-height: 60px;
 }
 
 .header__logo {
   display: flex;
-  align-items: baseline;
-  padding: 8px 10px;
+  align-items: center;
+  padding: 10px 8px 10px 0;
   border: 1px solid transparent;
   border-radius: 2px;
+  min-width: 120px;
 }
 
 .header__logo:hover {
@@ -25,10 +27,11 @@
 }
 
 .header__logo-text {
-  font-size: 26px;
+  font-size: 28px;
   font-weight: 700;
   color: #fff;
   font-style: italic;
+  line-height: 1;
 }
 
 .header__logo-suffix {
@@ -38,12 +41,13 @@
 
 .header__delivery {
   display: flex;
-  align-items: center;
-  padding: 8px 10px;
+  align-items: flex-start;
+  padding: 10px 8px;
   border: 1px solid transparent;
   border-radius: 2px;
   color: #fff;
   cursor: pointer;
+  white-space: nowrap;
 }
 
 .header__delivery:hover {
@@ -51,41 +55,56 @@
 }
 
 .header__delivery-icon {
-  font-size: 18px;
+  font-size: 16px;
   margin-right: 4px;
+  margin-top: 2px;
 }
 
 .header__delivery-text {
   display: flex;
   flex-direction: column;
+  line-height: 1.2;
 }
 
 .header__delivery-label {
-  font-size: 12px;
+  font-size: 11px;
   color: #ccc;
+  line-height: 1.2;
 }
 
 .header__delivery-location {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
+  line-height: 1.2;
 }
 
 .header__search {
   flex: 1;
   display: flex;
+  align-items: center;
+  max-width: 900px;
   height: 40px;
+  margin: 0 auto;
   border-radius: 4px;
   overflow: hidden;
 }
 
 .header__search-category {
-  padding: 0 10px;
+  padding: 0 8px 0 12px;
   background-color: #f3f3f3;
   border: none;
   font-size: 12px;
   color: #555;
   cursor: pointer;
   border-right: 1px solid #cdcdcd;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  height: 100%;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23555' d='M6 9L1 4h10z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  padding-right: 24px;
 }
 
 .header__search-category:focus {
@@ -97,18 +116,30 @@
   padding: 0 10px;
   border: none;
   font-size: 15px;
+  height: 100%;
 }
 
 .header__search-input:focus {
   outline: none;
 }
 
+.header__search-input::placeholder {
+  color: #999;
+}
+
 .header__search-button {
   width: 45px;
+  height: 100%;
   background-color: #febd69;
   border: none;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  transition: background-color 0.1s;
 }
 
 .header__search-button:hover {
@@ -118,17 +149,19 @@
 .header__nav {
   display: flex;
   align-items: center;
-  gap: 2px;
+  gap: 0;
+  margin-left: auto;
 }
 
 .header__nav-item {
   display: flex;
   flex-direction: column;
-  padding: 8px 10px;
+  padding: 10px 8px;
   border: 1px solid transparent;
   border-radius: 2px;
   color: #fff;
   white-space: nowrap;
+  align-items: flex-start;
 }
 
 .header__nav-item:hover {
@@ -136,22 +169,25 @@
 }
 
 .header__nav-line1 {
-  font-size: 12px;
+  font-size: 11px;
   color: #ccc;
+  line-height: 1.2;
 }
 
 .header__nav-line2 {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
+  line-height: 1.2;
 }
 
 .header__cart {
   display: flex;
-  align-items: flex-end;
-  padding: 8px 10px;
+  align-items: center;
+  padding: 10px 8px;
   border: 1px solid transparent;
   border-radius: 2px;
   color: #fff;
+  gap: 4px;
 }
 
 .header__cart:hover {
@@ -160,27 +196,31 @@
 
 .header__cart-icon {
   position: relative;
-  font-size: 28px;
+  font-size: 32px;
   line-height: 1;
+  display: flex;
+  align-items: center;
 }
 
 .header__cart-count {
   position: absolute;
-  top: -5px;
+  top: -8px;
   left: 50%;
   transform: translateX(-50%);
   background-color: #f08804;
   color: #fff;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 700;
-  padding: 0 6px;
+  padding: 1px 5px;
   border-radius: 10px;
+  min-width: 18px;
+  text-align: center;
 }
 
 .header__cart-text {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
-  margin-left: 4px;
+  margin-top: -2px;
 }
 
 /* Bottom Navigation */
@@ -234,28 +274,134 @@
 }
 
 /* Responsive */
+@media (max-width: 1200px) {
+  .header__search {
+    max-width: 600px;
+  }
+}
+
 @media (max-width: 900px) {
+  .header__top {
+    padding: 0 10px;
+    gap: 6px;
+  }
+
+  .header__logo {
+    min-width: 100px;
+    padding: 10px 6px 10px 0;
+  }
+
+  .header__logo-text {
+    font-size: 24px;
+  }
+
   .header__delivery {
     display: none;
   }
   
+  .header__search {
+    max-width: none;
+    flex: 1;
+    min-width: 0;
+  }
+
   .header__search-category {
     display: none;
+  }
+
+  .header__nav-item {
+    padding: 10px 6px;
+  }
+
+  .header__nav-line1 {
+    font-size: 10px;
+  }
+
+  .header__nav-line2 {
+    font-size: 12px;
+  }
+
+  .header__cart {
+    padding: 10px 6px;
   }
 }
 
 @media (max-width: 700px) {
   .header__top {
     flex-wrap: wrap;
+    padding: 8px 10px;
+    min-height: auto;
+  }
+
+  .header__logo {
+    order: 1;
+    min-width: 90px;
+  }
+
+  .header__logo-text {
+    font-size: 22px;
+  }
+
+  .header__nav {
+    order: 2;
+    margin-left: auto;
+  }
+
+  .header__nav-item {
+    padding: 8px 4px;
+  }
+
+  .header__nav-line1 {
+    display: none;
+  }
+
+  .header__nav-line2 {
+    font-size: 11px;
+  }
+
+  .header__cart {
+    order: 3;
+    padding: 8px 4px;
+  }
+
+  .header__cart-icon {
+    font-size: 28px;
+  }
+
+  .header__cart-text {
+    display: none;
   }
   
   .header__search {
-    order: 3;
+    order: 4;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 8px;
+    height: 36px;
   }
-  
-  .header__nav-item .header__nav-line1 {
-    display: none;
+}
+
+@media (max-width: 480px) {
+  .header__top {
+    padding: 6px 8px;
+  }
+
+  .header__logo-text {
+    font-size: 20px;
+  }
+
+  .header__nav-item {
+    padding: 8px 2px;
+  }
+
+  .header__nav-line2 {
+    font-size: 10px;
+  }
+
+  .header__search {
+    height: 34px;
+  }
+
+  .header__search-input {
+    font-size: 14px;
   }
 }
