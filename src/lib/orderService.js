@@ -2,7 +2,7 @@ const ORDERS_STORAGE_KEY = 'amazon_clone_orders';
 const PAYMENT_STORAGE_KEY = 'amazon_clone_payment';
 
 // BTC Wallet Address (dummy)
-export const BTC_WALLET_ADDRESS = '1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa';
+export const BTC_WALLET_ADDRESS = 'bc1qxruruy6drkmlgq6tashf6ac6pfl2wtnfx80kuj';
 
 // Get all orders from localStorage
 export function getOrders() {
