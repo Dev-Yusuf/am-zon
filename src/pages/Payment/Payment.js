@@ -20,7 +20,6 @@ function Payment() {
   const orderId = searchParams.get('orderId');
   
   const [order, setOrder] = useState(null);
-  const [paymentState, setPaymentState] = useState(null);
   const [copied, setCopied] = useState(false);
   const [paymentNotes, setPaymentNotes] = useState('');
   const [showConfirmation, setShowConfirmation] = useState(false);
@@ -41,11 +40,8 @@ function Payment() {
     setOrder(foundOrder);
     
     const existingPaymentState = getPaymentState(orderId);
-    if (existingPaymentState) {
-      setPaymentState(existingPaymentState);
-      if (existingPaymentState.paidStatus) {
-        setConfirmed(true);
-      }
+    if (existingPaymentState && existingPaymentState.paidStatus) {
+      setConfirmed(true);
     }
   }, [orderId, navigate]);
 
