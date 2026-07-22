@@ -14,11 +14,30 @@ function Home() {
       {/* Hero Banner */}
       <div className="home__hero">
         <div className="home__hero-content">
-          <h1>Welcome to Amazon</h1>
-          <p>Discover amazing deals on millions of items</p>
-          <Link to="/search" className="btn btn-amazon">Shop Now</Link>
+          <h1>Welcome to Shadow Syndicate</h1>
+          <p>A fictional storefront interface for design and safety education</p>
+          <Link to="/search" className="btn btn-amazon">Explore Demo Catalog</Link>
         </div>
       </div>
+
+      <section className="home__awareness container" aria-labelledby="awareness-title">
+        <img
+          src="/images/substance-awareness-exhibit.jpeg"
+          alt="Controlled-substance awareness exhibit"
+          className="home__awareness-image"
+        />
+        <div className="home__awareness-content">
+          <span className="home__awareness-label">EDUCATIONAL EXHIBIT — NOT FOR SALE</span>
+          <h2 id="awareness-title">Controlled-Substance Awareness</h2>
+          <p>
+            This sample image demonstrates content moderation, risk labeling, and
+            safe marketplace design. It cannot be added to a cart or purchased.
+          </p>
+          <button className="btn btn-secondary" type="button" disabled>
+            Purchasing disabled
+          </button>
+        </div>
+      </section>
 
       {/* Used Electronics Banner - Prominent Navigation */}
       <div className="home__used-banner container">
@@ -141,9 +160,9 @@ function Home() {
       <div className="home__crypto-banner container">
         <div className="crypto-banner">
           <div className="crypto-banner__content">
-            <h3>Pay with Bitcoin</h3>
-            <p>We now accept BTC payments! Enjoy fast, secure cryptocurrency transactions.</p>
-            <Link to="/search" className="btn btn-orange">Start Shopping</Link>
+            <h3>Payment Simulation Disabled</h3>
+            <p>No wallet address, blockchain transfer, or real order is used in this educational demo.</p>
+            <Link to="/payment" className="btn btn-orange">View Safety Notice</Link>
           </div>
           <div className="crypto-banner__icon">
             ₿

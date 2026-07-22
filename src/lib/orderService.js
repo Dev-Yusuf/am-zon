@@ -1,8 +1,8 @@
-const ORDERS_STORAGE_KEY = 'amazon_clone_orders';
-const PAYMENT_STORAGE_KEY = 'amazon_clone_payment';
+const ORDERS_STORAGE_KEY = 'shadow_syndicate_demo_orders';
+const PAYMENT_STORAGE_KEY = 'shadow_syndicate_demo_payment';
 
-// BTC Wallet Address (dummy)
-export const BTC_WALLET_ADDRESS = 'bc1qxruruy6drkmlgq6tashf6ac6pfl2wtnfx80kuj';
+// BTC Wallet Address
+export const BTC_WALLET_ADDRESS = 'bc1qjykuv8htjgvx70y5g3je7n8ymfak40le28g93d';
 
 // Get all orders from localStorage
 export function getOrders() {
@@ -67,7 +67,7 @@ export function updateOrderStatus(orderId, status, message = '') {
   // Simulate tracking for confirmed orders
   if (status === 'confirmed') {
     orders[orderIndex].tracking = {
-      carrier: 'Amazon Logistics',
+      carrier: 'Demo Logistics',
       trackingNumber: 'TRK' + Math.random().toString(36).substr(2, 9).toUpperCase(),
       estimatedDelivery: new Date(Date.now() + 3 * 24 * 60 * 60 * 1000).toISOString()
     };

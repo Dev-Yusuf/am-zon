@@ -8,3 +8,12 @@
   flex: 1;
   padding-bottom: 20px;
 }
+.demo-notice {
+  background: #8b0000;
+  color: #fff;
+  padding: 9px 16px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}

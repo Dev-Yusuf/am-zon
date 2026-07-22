@@ -34,7 +34,7 @@ function Header() {
       {/* Top Navigation */}
       <div className="header__top">
         <Link to="/" className="header__logo">
-          <span className="header__logo-text">amazon</span>
+          <span className="header__logo-text">Shadow Syndicate</span>
         </Link>
 
         <div className="header__delivery">
@@ -58,7 +58,7 @@ function Header() {
           <input
             type="text"
             className="header__search-input"
-            placeholder="Search Amazon"
+            placeholder="Search the demo catalog"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
           />
