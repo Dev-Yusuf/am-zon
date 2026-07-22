@@ -42,7 +42,7 @@ function Payment() {
               <span className="amount-label">Bitcoin amount</span>
               <span className="amount-btc">{btcAmount}</span>
             </div>
-            <div className="rate-note">Estimated rate shown for demo checkout purposes.</div>
+            <div className="rate-note">Exchange rate shown for checkout reference.</div>
           </div>
 
           <div className="btc-wallet-section">

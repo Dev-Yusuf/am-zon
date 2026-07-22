@@ -170,6 +170,21 @@
   white-space: nowrap;
 }
 
+/* Product Wall */
+.home__product-wall {
+  margin-bottom: 30px;
+}
+
+.home__product-wall-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.home__product-wall-item {
+  min-width: 0;
+}
+
 /* Categories Grid */
 .home__categories {
   margin-bottom: 20px;

@@ -1,9 +1,60 @@
 import products from '../data/products.json';
 import categories from '../data/categories.json';
 
+const HOME_PRODUCT_IMAGES = [
+  '/images/homepage/WhatsApp Image 2026-07-22 at 10.34.41 PM.jpeg',
+  '/images/homepage/WhatsApp Image 2026-07-22 at 10.34.43 PM.jpeg',
+  '/images/homepage/WhatsApp Image 2026-07-22 at 10.34.44 PM (1).jpeg',
+  '/images/homepage/WhatsApp Image 2026-07-22 at 10.34.44 PM.jpeg',
+  '/images/homepage/WhatsApp Image 2026-07-22 at 10.34.45 PM (1).jpeg',
+  '/images/homepage/WhatsApp Image 2026-07-22 at 10.34.45 PM.jpeg',
+  '/images/homepage/WhatsApp Image 2026-07-22 at 10.34.46 PM.jpeg',
+  '/images/homepage/WhatsApp Image 2026-07-22 at 10.34.47 PM (1).jpeg',
+  '/images/homepage/WhatsApp Image 2026-07-22 at 10.34.47 PM (2).jpeg',
+  '/images/homepage/WhatsApp Image 2026-07-22 at 10.34.47 PM.jpeg',
+  '/images/homepage/WhatsApp Image 2026-07-22 at 10.34.48 PM.jpeg',
+  '/images/homepage/WhatsApp Image 2026-07-22 at 10.34.49 PM (1).jpeg',
+  '/images/homepage/WhatsApp Image 2026-07-22 at 10.34.49 PM.jpeg',
+  '/images/homepage/WhatsApp Image 2026-07-22 at 10.34.50 PM.jpeg',
+  '/images/homepage/WhatsApp Image 2026-07-22 at 10.42.03 PM (1).jpeg',
+  '/images/homepage/WhatsApp Image 2026-07-22 at 10.42.03 PM (2).jpeg',
+  '/images/homepage/WhatsApp Image 2026-07-22 at 10.42.03 PM (3).jpeg',
+  '/images/homepage/WhatsApp Image 2026-07-22 at 10.42.03 PM.jpeg',
+  '/images/homepage/WhatsApp Image 2026-07-22 at 10.42.04 PM (1).jpeg',
+  '/images/homepage/WhatsApp Image 2026-07-22 at 10.42.04 PM.jpeg',
+  '/images/homepage/WhatsApp Image 2026-07-22 at 10.42.05 PM.jpeg'
+];
+
+function randomPriceBetween(min, max) {
+  return Number((Math.random() * (max - min) + min).toFixed(2));
+}
+
+function applyHomepagePresentation(results) {
+  return results.map((product, index) => {
+    const price = randomPriceBetween(90, 150);
+    const originalPrice = Number((price + 12 + (index % 3) * 4).toFixed(2));
+
+    return {
+      ...product,
+      price,
+      originalPrice,
+      images: [HOME_PRODUCT_IMAGES[index % HOME_PRODUCT_IMAGES.length], ...product.images.slice(1)]
+    };
+  });
+}
+
 // Get all products
 export function getAllProducts() {
   return products;
+}
+
+// Homepage product wall with local storefront visuals and randomized pricing
+export function getHomepageProductWall(limit = 12) {
+  return applyHomepagePresentation(
+    [...products]
+      .sort((a, b) => (b.rating * Math.log10(b.reviewCount)) - (a.rating * Math.log10(a.reviewCount)))
+      .slice(0, limit)
+  );
 }
 
 // Get product by ID
@@ -109,16 +160,20 @@ export function searchProducts(query, options = {}) {
 
 // Get deal products
 export function getDealProducts(limit = 10) {
-  return products
-    .filter(product => product.deal)
-    .slice(0, limit);
+  return applyHomepagePresentation(
+    products
+      .filter(product => product.deal)
+      .slice(0, limit)
+  );
 }
 
 // Get featured products (high rating + many reviews)
 export function getFeaturedProducts(limit = 10) {
-  return [...products]
-    .sort((a, b) => (b.rating * Math.log10(b.reviewCount)) - (a.rating * Math.log10(a.reviewCount)))
-    .slice(0, limit);
+  return applyHomepagePresentation(
+    [...products]
+      .sort((a, b) => (b.rating * Math.log10(b.reviewCount)) - (a.rating * Math.log10(a.reviewCount)))
+      .slice(0, limit)
+  );
 }
 
 // Get related products

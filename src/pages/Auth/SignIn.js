@@ -122,7 +122,7 @@ function SignIn() {
           <Link to="/privacy">Privacy Notice</Link>
           <Link to="/help">Help</Link>
         </div>
-        <p>© 2024, Amazon Clone - Demo Project</p>
+        <p>© 2024, Amazon Clone</p>
       </div>
     </div>
   );

@@ -19,9 +19,6 @@ import './styles/App.css';
 function App() {
   return (
     <div className="app">
-      <div className="demo-notice" role="status">
-        EDUCATIONAL DEMONSTRATION — NO REAL PRODUCTS, PAYMENTS, OR ORDERS
-      </div>
       <Header />
       <main className="main-content">
         <Routes>

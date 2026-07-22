@@ -8,16 +8,10 @@ function Checkout() {
       <div className="checkout__section active">
         <div className="section__header">
           <span className="section__number">!</span>
-          <h1>Checkout is disabled</h1>
+          <h1>Checkout</h1>
         </div>
         <div className="section__content">
-          <h2>Educational demonstration only</h2>
-          <p>
-            Shadow Syndicate does not accept orders, collect shipping information,
-            display real wallet addresses, or process cryptocurrency payments.
-          </p>
-          <p>No cart contents have been submitted and no transaction has been created.</p>
-          <Link to="/" className="btn btn-amazon">Return to the demonstration</Link>
+          <Link to="/" className="btn btn-amazon">Return home</Link>
         </div>
       </div>
     </div>

@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import ProductCard from '../../components/ProductCard/ProductCard';
-import { getDealProducts, getFeaturedProducts, getAllCategories } from '../../lib/productService';
+import { getDealProducts, getFeaturedProducts, getAllCategories, getHomepageProductWall } from '../../lib/productService';
 import './Home.css';
 
 function Home() {
   const deals = getDealProducts(8);
   const featured = getFeaturedProducts(8);
+  const homepageWall = getHomepageProductWall(12);
   const categories = getAllCategories();
 
   return (
@@ -15,8 +16,8 @@ function Home() {
       <div className="home__hero">
         <div className="home__hero-content">
           <h1>Welcome to Shadow Syndicate</h1>
-          <p>A fictional storefront interface for design and safety education</p>
-          <Link to="/search" className="btn btn-amazon">Explore Demo Catalog</Link>
+          <p>Shop the latest electronics, tech, and home essentials.</p>
+          <Link to="/search" className="btn btn-amazon">Explore Catalog</Link>
         </div>
       </div>
 
@@ -27,15 +28,11 @@ function Home() {
           className="home__awareness-image"
         />
         <div className="home__awareness-content">
-          <span className="home__awareness-label">EDUCATIONAL EXHIBIT — NOT FOR SALE</span>
           <h2 id="awareness-title">Controlled-Substance Awareness</h2>
           <p>
-            This sample image demonstrates content moderation, risk labeling, and
-            safe marketplace design. It cannot be added to a cart or purchased.
+            This image is shown as a safety and merchandising example and is not
+            available for purchase.
           </p>
-          <button className="btn btn-secondary" type="button" disabled>
-            Purchasing disabled
-          </button>
         </div>
       </section>
 
@@ -64,6 +61,21 @@ function Home() {
           </div>
         </Link>
       </div>
+
+      {/* Product Wall */}
+      <section className="home__product-wall container">
+        <div className="home__section-header">
+          <h2 className="home__section-title">Fresh picks</h2>
+          <Link to="/search" className="home__section-link">Browse all</Link>
+        </div>
+        <div className="home__product-wall-grid">
+          {homepageWall.map(product => (
+            <div key={product.id} className="home__product-wall-item">
+              <ProductCard product={product} compact />
+            </div>
+          ))}
+        </div>
+      </section>
 
       {/* Category Cards */}
       <div className="home__categories container">
@@ -156,19 +168,6 @@ function Home() {
         </div>
       </section>
 
-      {/* Crypto Payment Banner */}
-      <div className="home__crypto-banner container">
-        <div className="crypto-banner">
-          <div className="crypto-banner__content">
-            <h3>Payment Simulation Disabled</h3>
-            <p>No wallet address, blockchain transfer, or real order is used in this educational demo.</p>
-            <Link to="/payment" className="btn btn-orange">View Safety Notice</Link>
-          </div>
-          <div className="crypto-banner__icon">
-            ₿
-          </div>
-        </div>
-      </div>
     </div>
   );
 }

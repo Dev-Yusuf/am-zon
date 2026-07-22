@@ -58,7 +58,7 @@ function Header() {
           <input
             type="text"
             className="header__search-input"
-            placeholder="Search the demo catalog"
+            placeholder="Search products"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
           />
