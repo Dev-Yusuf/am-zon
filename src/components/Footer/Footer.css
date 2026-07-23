@@ -6,7 +6,7 @@
   display: block;
   width: 100%;
   padding: 15px;
-  background-color: #37475a;
+  background-color: #295b40;
   color: #fff;
   font-size: 13px;
   text-align: center;
@@ -15,11 +15,11 @@
 }
 
 .footer__back-to-top:hover {
-  background-color: #485769;
+  background-color: #2f714a;
 }
 
 .footer__links {
-  background-color: #232f3e;
+  background-color: #18392b;
   padding: 40px 20px;
 }
 
@@ -52,7 +52,7 @@
 }
 
 .footer__bottom {
-  background-color: #131a22;
+  background-color: #102a1c;
   padding: 30px 20px;
   text-align: center;
 }
@@ -73,7 +73,7 @@
 
 .footer__logo-suffix {
   font-size: 12px;
-  color: #ff9900;
+  color: #9fceaa;
 }
 
 .footer__copyright {

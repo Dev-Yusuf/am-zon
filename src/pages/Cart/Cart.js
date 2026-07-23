@@ -30,8 +30,8 @@ function Cart() {
     return (
       <div className="cart container">
         <div className="cart__empty card">
-          <h2>Your Amazon Cart is empty</h2>
-          <p>Shop today's deals</p>
+          <h2>Your White Bloom cart is empty</h2>
+          <p>Shop the fresh picks</p>
           <Link to="/" className="btn btn-amazon">Continue Shopping</Link>
         </div>
       </div>
@@ -82,8 +82,8 @@ function Cart() {
 
                   {item.prime && (
                     <div className="cart-item__prime">
-                      <span className="prime-badge">prime</span>
-                      <span>FREE Delivery</span>
+                      <span className="prime-badge">White Bloom</span>
+                      <span>Priority Dispatch</span>
                     </div>
                   )}
 
@@ -190,7 +190,7 @@ function Cart() {
         <aside className="cart__sidebar">
           <div className="cart__checkout card">
             <div className="checkout__free-shipping">
-              ✓ Your order qualifies for FREE Shipping
+              ✓ Your order qualifies for White Bloom shipping
             </div>
             
             <div className="checkout__subtotal">

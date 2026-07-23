@@ -5,11 +5,11 @@
 }
 
 body {
-  font-family: "Amazon Ember", Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #eaeded;
-  color: #0f1111;
+  background: linear-gradient(to bottom, #f7fbf6 0%, #eef5ee 100%);
+  color: #18392b;
   line-height: 1.4;
 }
 
@@ -39,24 +39,39 @@ img {
   height: auto;
 }
 
-/* Amazon Colors */
+/* White Bloom Theme */
 :root {
-  --amazon-orange: #ff9900;
-  --amazon-orange-hover: #fa8900;
-  --amazon-blue: #232f3e;
-  --amazon-dark-blue: #131921;
-  --amazon-light-blue: #37475a;
-  --amazon-yellow: #ffd814;
-  --amazon-yellow-hover: #f7ca00;
-  --amazon-green: #067d62;
+  --brand-green: #18392b;
+  --brand-green-dark: #102a1c;
+  --brand-green-soft: #234f38;
+  --brand-mint: #9fceaa;
+  --brand-mint-hover: #83be95;
+  --brand-cream: #f6f8f2;
+  --brand-link: #1e6a46;
+  --brand-link-hover: #295b40;
+  --brand-red: #b12704;
+  --brand-gray: #565959;
+  --brand-light-gray: #d9e5dc;
+  --brand-border: #cfe0d2;
+  --brand-bg: #f5f8f4;
+  --brand-white: #ffffff;
+
+  --amazon-orange: #9fceaa;
+  --amazon-orange-hover: #83be95;
+  --amazon-blue: #18392b;
+  --amazon-dark-blue: #102a1c;
+  --amazon-light-blue: #234f38;
+  --amazon-yellow: #9fceaa;
+  --amazon-yellow-hover: #83be95;
+  --amazon-green: #18392b;
   --amazon-red: #b12704;
   --amazon-gray: #565959;
-  --amazon-light-gray: #dddddd;
-  --amazon-border: #ddd;
-  --amazon-bg: #eaeded;
+  --amazon-light-gray: #d9e5dc;
+  --amazon-border: #cfe0d2;
+  --amazon-bg: #f5f8f4;
   --amazon-white: #ffffff;
-  --amazon-link: #007185;
-  --amazon-link-hover: #c7511f;
+  --amazon-link: #1e6a46;
+  --amazon-link-hover: #295b40;
 }
 
 /* Common Button Styles */
@@ -69,30 +84,31 @@ img {
 }
 
 .btn-primary {
-  background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
-  border: 1px solid #a88734;
-  color: #111;
+  background: linear-gradient(to bottom, #dceedd, #bfe1c4);
+  border: 1px solid #6d9b7c;
+  color: #18392b;
 }
 
 .btn-primary:hover {
-  background: linear-gradient(to bottom, #f5d78e, #eeba37);
+  background: linear-gradient(to bottom, #cfe4d1, #aeceb4);
 }
 
 .btn-secondary {
-  background: linear-gradient(to bottom, #f7f8fa, #e7e9ec);
-  border: 1px solid #adb1b8;
-  color: #111;
+  background: linear-gradient(to bottom, #ffffff, #edf4ed);
+  border: 1px solid #bfd1c1;
+  color: #18392b;
 }
 
 .btn-secondary:hover {
-  background: linear-gradient(to bottom, #e7e9ec, #d9dce1);
+  background: linear-gradient(to bottom, #edf4ed, #dce9dd);
 }
 
 .btn-amazon {
   background-color: var(--amazon-yellow);
-  border: 1px solid #fcd200;
+  border: 1px solid #7aa888;
   border-radius: 20px;
-  color: #0f1111;
+  color: #18392b;
+  font-weight: 700;
 }
 
 .btn-amazon:hover {
@@ -101,8 +117,9 @@ img {
 
 .btn-orange {
   background-color: var(--amazon-orange);
-  border: 1px solid #c77600;
-  color: #fff;
+  border: 1px solid #7aa888;
+  color: #18392b;
+  font-weight: 700;
 }
 
 .btn-orange:hover {
@@ -181,8 +198,8 @@ img {
 }
 
 .form-input:focus {
-  border-color: #e77600;
-  box-shadow: 0 0 3px 2px rgba(228, 121, 17, 0.5);
+  border-color: #18392b;
+  box-shadow: 0 0 3px 2px rgba(31, 90, 61, 0.25);
 }
 
 /* Card Styles */
@@ -190,7 +207,8 @@ img {
   background-color: var(--amazon-white);
   border-radius: 8px;
   padding: 20px;
-  box-shadow: 0 2px 5px rgba(15, 17, 17, 0.15);
+  box-shadow: 0 4px 14px rgba(24, 57, 43, 0.12);
+  border: 1px solid var(--amazon-border);
 }
 
 /* Loading Spinner */
@@ -198,7 +216,7 @@ img {
   width: 40px;
   height: 40px;
   border: 4px solid var(--amazon-light-gray);
-  border-top-color: var(--amazon-orange);
+  border-top-color: var(--amazon-green);
   border-radius: 50%;
   animation: spin 1s linear infinite;
 }

@@ -25,19 +25,35 @@ const HOME_PRODUCT_IMAGES = [
   '/images/homepage/WhatsApp Image 2026-07-22 at 10.42.05 PM.jpeg'
 ];
 
+const EXCLUDED_HOME_CATEGORIES = ['electronics', 'computers'];
+const HOME_PRODUCT_TITLE_POOL = [
+  'White Bloom Signature Blend',
+  'White Bloom Daily Ritual Set',
+  'White Bloom Weekend Reserve',
+  'White Bloom Studio Collection',
+  'White Bloom Luxe Essentials',
+  'White Bloom Wellness Pick'
+];
+
 function randomPriceBetween(min, max) {
   return Number((Math.random() * (max - min) + min).toFixed(2));
+}
+
+function filterHomepageProducts(items) {
+  return items.filter(product => !EXCLUDED_HOME_CATEGORIES.includes(product.category));
 }
 
 function applyHomepagePresentation(results) {
   return results.map((product, index) => {
     const price = randomPriceBetween(90, 150);
     const originalPrice = Number((price + 12 + (index % 3) * 4).toFixed(2));
+    const displayTitle = HOME_PRODUCT_TITLE_POOL[index % HOME_PRODUCT_TITLE_POOL.length];
 
     return {
       ...product,
       price,
       originalPrice,
+      displayTitle,
       images: [HOME_PRODUCT_IMAGES[index % HOME_PRODUCT_IMAGES.length], ...product.images.slice(1)]
     };
   });
@@ -51,9 +67,10 @@ export function getAllProducts() {
 // Homepage product wall with local storefront visuals and randomized pricing
 export function getHomepageProductWall(limit = 12) {
   return applyHomepagePresentation(
-    [...products]
-      .sort((a, b) => (b.rating * Math.log10(b.reviewCount)) - (a.rating * Math.log10(a.reviewCount)))
-      .slice(0, limit)
+    filterHomepageProducts(
+      [...products]
+        .sort((a, b) => (b.rating * Math.log10(b.reviewCount)) - (a.rating * Math.log10(a.reviewCount)))
+    ).slice(0, limit)
   );
 }
 
@@ -161,18 +178,19 @@ export function searchProducts(query, options = {}) {
 // Get deal products
 export function getDealProducts(limit = 10) {
   return applyHomepagePresentation(
-    products
-      .filter(product => product.deal)
-      .slice(0, limit)
+    filterHomepageProducts(
+      products.filter(product => product.deal)
+    ).slice(0, limit)
   );
 }
 
 // Get featured products (high rating + many reviews)
 export function getFeaturedProducts(limit = 10) {
   return applyHomepagePresentation(
-    [...products]
-      .sort((a, b) => (b.rating * Math.log10(b.reviewCount)) - (a.rating * Math.log10(a.reviewCount)))
-      .slice(0, limit)
+    filterHomepageProducts(
+      [...products]
+        .sort((a, b) => (b.rating * Math.log10(b.reviewCount)) - (a.rating * Math.log10(a.reviewCount)))
+    ).slice(0, limit)
   );
 }
 

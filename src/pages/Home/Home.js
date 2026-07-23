@@ -15,49 +15,46 @@ function Home() {
       {/* Hero Banner */}
       <div className="home__hero">
         <div className="home__hero-content">
-          <h1>Welcome to Shadow Syndicate</h1>
-          <p>Shop the latest electronics, tech, and home essentials.</p>
-          <Link to="/search" className="btn btn-amazon">Explore Catalog</Link>
+          <h1>Welcome to White Bloom</h1>
+          <p>Discover elevated cannabis, wellness, and lifestyle essentials curated for modern routines.</p>
+          <Link to="/search" className="btn btn-amazon">Shop the collection</Link>
         </div>
       </div>
 
       <section className="home__awareness container" aria-labelledby="awareness-title">
         <img
           src="/images/substance-awareness-exhibit.jpeg"
-          alt="Controlled-substance awareness exhibit"
+          alt="Luxury cannabis lifestyle storefront"
           className="home__awareness-image"
         />
         <div className="home__awareness-content">
-          <h2 id="awareness-title">Controlled-Substance Awareness</h2>
+          <span className="home__awareness-label">CURATED WELLNESS COLLECTION</span>
+          <h2 id="awareness-title">White Bloom Essentials</h2>
           <p>
-            This image is shown as a safety and merchandising example and is not
-            available for purchase.
+            Discover premium flower, refined accessories, and everyday wellness picks in a clean,
+            elevated retail experience.
           </p>
         </div>
       </section>
 
-      {/* Used Electronics Banner - Prominent Navigation */}
+      {/* White Bloom Brand Banner */}
       <div className="home__used-banner container">
-        <Link to="/used-electronics" className="used-banner">
-          <div className="used-banner__badge">HOT DEALS</div>
+        <Link to="/search" className="used-banner">
+          <div className="used-banner__badge">CURATED PICKS</div>
           <div className="used-banner__content">
-            <div className="used-banner__icon">📷</div>
+            <div className="used-banner__icon">🌿</div>
             <div className="used-banner__text">
-              <h2>Used Electronics</h2>
-              <p>Quality Pre-Owned Cameras & Tripods at Great Prices!</p>
-              <span className="used-banner__cta">Shop Now - Save Up to 60% →</span>
+              <h2>White Bloom Essentials</h2>
+              <p>Elevated routines, refined accessories, and wellness favorites for the modern lifestyle.</p>
+              <span className="used-banner__cta">Shop the collection →</span>
             </div>
           </div>
           <div className="used-banner__items">
-            <span>Digital Cameras</span>
+            <span>Wellness Rituals</span>
             <span>•</span>
-            <span>Tripods</span>
+            <span>Refined Accessories</span>
             <span>•</span>
-            <span>Sony</span>
-            <span>•</span>
-            <span>Canon</span>
-            <span>•</span>
-            <span>Nikon</span>
+            <span>Premium Essentials</span>
           </div>
         </Link>
       </div>

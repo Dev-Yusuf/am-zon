@@ -40,6 +40,7 @@ function ProductDetail() {
     );
   }
 
+  const displayTitle = product.displayTitle || product.title;
   const { whole, fraction } = formatPrice(product.price);
   const savings = calculateSavings(product.price, product.originalPrice);
 
@@ -95,7 +96,7 @@ function ProductDetail() {
           <div className="gallery__main">
             <img
               src={product.images[selectedImage]}
-              alt={product.title}
+              alt={displayTitle}
               className="gallery__main-image"
             />
           </div>
@@ -103,7 +104,7 @@ function ProductDetail() {
 
         {/* Product Info */}
         <div className="product-detail__info">
-          <h1 className="product-detail__title">{product.title}</h1>
+          <h1 className="product-detail__title">{displayTitle}</h1>
           
           <div className="product-detail__brand">
             Visit the <Link to={`/search?q=${product.brand}`} className="brand-link">{product.brand} Store</Link>
@@ -195,8 +196,8 @@ function ProductDetail() {
 
             {product.prime && (
               <div className="buybox__prime">
-                <span className="prime-badge">prime</span>
-                <span className="prime-text">FREE delivery</span>
+                <span className="prime-badge">White Bloom</span>
+                <span className="prime-text">Dispatch in 24 hours</span>
               </div>
             )}
 
@@ -253,10 +254,10 @@ function ProductDetail() {
             <div className="buybox__info">
               <div className="buybox__info-row">
                 <span>Ships from</span>
-                <span>Amazon</span>
+                <span>White Bloom</span>
               </div>
               <div className="buybox__info-row">
-                <span>Sold by</span>
+                <span>Fulfilled by</span>
                 <span>{product.brand}</span>
               </div>
               <div className="buybox__info-row">

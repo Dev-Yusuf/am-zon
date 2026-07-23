@@ -64,7 +64,7 @@ function UsedElectronics() {
         <div className="container">
           <div className="hero-content">
             <span className="hero-badge">PRE-OWNED</span>
-            <h1>Used Electronics</h1>
+            <h1>White Bloom Essentials</h1>
             <p>Quality cameras and tripods at unbeatable prices. All items tested and verified.</p>
           </div>
         </div>

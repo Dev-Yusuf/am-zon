@@ -20,8 +20,6 @@ function Header() {
 
   const categories = [
     { value: 'all', label: 'All Departments' },
-    { value: 'electronics', label: 'Electronics' },
-    { value: 'computers', label: 'Computers' },
     { value: 'fashion', label: 'Fashion' },
     { value: 'home', label: 'Home & Kitchen' },
     { value: 'books', label: 'Books' },
@@ -34,7 +32,7 @@ function Header() {
       {/* Top Navigation */}
       <div className="header__top">
         <Link to="/" className="header__logo">
-          <span className="header__logo-text">Shadow Syndicate</span>
+          <span className="header__logo-text">White Bloom</span>
         </Link>
 
         <div className="header__delivery">
@@ -58,7 +56,7 @@ function Header() {
           <input
             type="text"
             className="header__search-input"
-            placeholder="Search products"
+            placeholder="Search White Bloom"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
           />
@@ -97,8 +95,6 @@ function Header() {
             ☰ All
           </button>
           <div className="header__links">
-            <Link to="/search?category=electronics" className="header__link">Electronics</Link>
-            <Link to="/search?category=computers" className="header__link">Computers</Link>
             <Link to="/search?category=fashion" className="header__link">Fashion</Link>
             <Link to="/search?category=home" className="header__link">Home & Kitchen</Link>
             <Link to="/search?category=books" className="header__link">Books</Link>

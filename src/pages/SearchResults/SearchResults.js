@@ -188,7 +188,7 @@ function SearchResults() {
           </div>
         </div>
 
-        {/* Prime Filter */}
+        {/* Delivery Filter */}
         <div className="filter-section">
           <h4 className="filter-title">Delivery</h4>
           <label className="filter-checkbox">
@@ -197,8 +197,8 @@ function SearchResults() {
               checked={prime}
               onChange={(e) => updateFilter('prime', e.target.checked ? 'true' : '')}
             />
-            <span className="prime-badge">prime</span>
-            <span>FREE Delivery</span>
+            <span className="prime-badge">White Bloom</span>
+            <span>Priority Dispatch</span>
           </label>
         </div>
 

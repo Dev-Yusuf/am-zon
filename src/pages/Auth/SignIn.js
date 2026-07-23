@@ -51,12 +51,12 @@ function SignIn() {
     <div className="auth">
       <div className="auth__container">
         <Link to="/" className="auth__logo">
-          <span className="auth__logo-text">amazon</span>
+          <span className="auth__logo-text">White Bloom</span>
           <span className="auth__logo-suffix">.clone</span>
         </Link>
 
         <div className="auth__box card">
-          <h1>Sign in</h1>
+          <h1>Sign in to White Bloom</h1>
 
           {error && (
             <div className="auth__error">
@@ -97,7 +97,7 @@ function SignIn() {
           </form>
 
           <p className="auth__terms">
-            By continuing, you agree to Amazon Clone's{' '}
+            By continuing, you agree to White Bloom's{' '}
             <Link to="/conditions">Conditions of Use</Link> and{' '}
             <Link to="/privacy">Privacy Notice</Link>.
           </p>
@@ -108,11 +108,11 @@ function SignIn() {
         </div>
 
         <div className="auth__divider">
-          <span>New to Amazon Clone?</span>
+          <span>New to White Bloom?</span>
         </div>
 
         <Link to="/signup" className="btn btn-secondary auth__create">
-          Create your Amazon Clone account
+          Create your White Bloom account
         </Link>
       </div>
 
@@ -122,7 +122,7 @@ function SignIn() {
           <Link to="/privacy">Privacy Notice</Link>
           <Link to="/help">Help</Link>
         </div>
-        <p>© 2024, Amazon Clone</p>
+        <p>© 2024, White Bloom</p>
       </div>
     </div>
   );

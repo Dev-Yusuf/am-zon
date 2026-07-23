@@ -6,6 +6,7 @@ import './ProductCard.css';
 function ProductCard({ product, compact = false }) {
   const { whole, fraction } = formatPrice(product.price);
   const savings = calculateSavings(product.price, product.originalPrice);
+  const displayTitle = product.displayTitle || product.title;
 
   const renderStars = (rating) => {
     const stars = [];
@@ -28,10 +29,10 @@ function ProductCard({ product, compact = false }) {
     return (
       <Link to={`/product/${product.id}`} className="product-card product-card--compact">
         <div className="product-card__image-container">
-          <img src={product.images[0]} alt={product.title} className="product-card__image" />
+          <img src={product.images[0]} alt={displayTitle} className="product-card__image" />
         </div>
         <div className="product-card__info">
-          <h3 className="product-card__title">{product.title}</h3>
+          <h3 className="product-card__title">{displayTitle}</h3>
           <div className="product-card__price">
             <span className="price-symbol">$</span>
             <span className="price-whole">{whole}</span>
@@ -50,7 +51,7 @@ function ProductCard({ product, compact = false }) {
       </div>
       
       <div className="product-card__info">
-        <h3 className="product-card__title">{product.title}</h3>
+        <h3 className="product-card__title">{displayTitle}</h3>
         
         <div className="product-card__rating">
           <div className="stars">
@@ -82,14 +83,14 @@ function ProductCard({ product, compact = false }) {
 
         {product.prime && (
           <div className="product-card__prime">
-            <span className="prime-badge">prime</span>
-            <span className="prime-delivery">FREE delivery {product.deliveryDays <= 2 ? 'Tomorrow' : `in ${product.deliveryDays} days`}</span>
+            <span className="prime-badge">White Bloom</span>
+            <span className="prime-delivery">Dispatch in {product.deliveryDays <= 2 ? '24 hours' : `${product.deliveryDays} days`}</span>
           </div>
         )}
 
         {product.freeShipping && !product.prime && (
           <div className="product-card__shipping">
-            FREE Shipping
+            White Bloom shipping
           </div>
         )}
       </div>

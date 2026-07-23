@@ -62,12 +62,12 @@ function SignUp() {
     <div className="auth">
       <div className="auth__container">
         <Link to="/" className="auth__logo">
-          <span className="auth__logo-text">amazon</span>
+          <span className="auth__logo-text">White Bloom</span>
           <span className="auth__logo-suffix">.clone</span>
         </Link>
 
         <div className="auth__box card">
-          <h1>Create account</h1>
+          <h1>Create your White Bloom account</h1>
 
           {error && (
             <div className="auth__error">
@@ -129,12 +129,12 @@ function SignUp() {
               className="btn btn-amazon auth__submit"
               disabled={loading}
             >
-              {loading ? 'Creating account...' : 'Create your Amazon Clone account'}
+              {loading ? 'Creating account...' : 'Create your White Bloom account'}
             </button>
           </form>
 
           <p className="auth__terms">
-            By creating an account, you agree to Amazon Clone's{' '}
+            By creating an account, you agree to White Bloom's{' '}
             <Link to="/conditions">Conditions of Use</Link> and{' '}
             <Link to="/privacy">Privacy Notice</Link>.
           </p>
@@ -155,7 +155,7 @@ function SignUp() {
           <Link to="/privacy">Privacy Notice</Link>
           <Link to="/help">Help</Link>
         </div>
-        <p>© 2024, Amazon Clone</p>
+        <p>© 2024, White Bloom</p>
       </div>
     </div>
   );
