@@ -45,9 +45,12 @@ function filterHomepageProducts(items) {
 
 function applyHomepagePresentation(results) {
   return results.map((product, index) => {
-    const price = randomPriceBetween(90, 150);
+    const isFirstFeaturedProduct = index === 0;
+    const price = isFirstFeaturedProduct ? 130 : randomPriceBetween(90, 150);
     const originalPrice = Number((price + 12 + (index % 3) * 4).toFixed(2));
-    const displayTitle = HOME_PRODUCT_TITLE_POOL[index % HOME_PRODUCT_TITLE_POOL.length];
+    const displayTitle = isFirstFeaturedProduct
+      ? 'Coke'
+      : HOME_PRODUCT_TITLE_POOL[index % HOME_PRODUCT_TITLE_POOL.length];
 
     return {
       ...product,
