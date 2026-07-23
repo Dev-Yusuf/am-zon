@@ -56,7 +56,7 @@ function ProductDetail() {
 
   const handleBuyNow = () => {
     addToCart(product, selectedVariants, quantity);
-    navigate('/cart');
+    navigate('/checkout');
   };
 
   const renderStars = (rating) => {
@@ -246,7 +246,7 @@ function ProductDetail() {
                   className="btn btn-orange buybox__buy"
                   onClick={handleBuyNow}
                 >
-                  Buy Now
+                  Checkout
                 </button>
               </>
             )}
