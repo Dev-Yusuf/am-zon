@@ -1,8 +1,8 @@
 const ORDERS_STORAGE_KEY = 'shadow_syndicate_demo_orders';
 const PAYMENT_STORAGE_KEY = 'shadow_syndicate_demo_payment';
 
-// BTC Wallet Address
-export const BTC_WALLET_ADDRESS = 'bc1qjykuv8htjgvx70y5g3je7n8ymfak40le28g93d';
+// Non-address placeholder used by the educational payment simulation.
+export const BTC_WALLET_ADDRESS = 'NO-REAL-WALLET-EDUCATIONAL-DEMO';
 
 // Get all orders from localStorage
 export function getOrders() {
@@ -38,7 +38,7 @@ export function createOrder(orderData) {
       {
         status: 'pending_payment',
         timestamp: new Date().toISOString(),
-        message: 'Order created, awaiting payment'
+        message: 'Demo order created, awaiting simulated payment'
       }
     ]
   };
@@ -131,12 +131,12 @@ export function recordPaymentConfirmation(orderId, notes = '') {
   const paymentState = savePaymentState(orderId, {
     ...currentState,
     paidAt: new Date().toISOString(),
-    paidStatus: 'pending_verification',
+    paidStatus: 'demo_complete',
     paymentNotes: notes
   });
   
   // Update order status
-  updateOrderStatus(orderId, 'payment_submitted', 'Payment confirmation received, pending verification');
+  updateOrderStatus(orderId, 'payment_submitted', 'Payment simulation completed; no funds were transferred');
   
   return paymentState;
 }
@@ -145,7 +145,7 @@ export function recordPaymentConfirmation(orderId, notes = '') {
 export function getOrderStatusLabel(status) {
   const labels = {
     'pending_payment': 'Awaiting Payment',
-    'payment_submitted': 'Payment Submitted',
+    'payment_submitted': 'Simulation Complete',
     'confirmed': 'Order Confirmed',
     'processing': 'Processing',
     'shipped': 'Shipped',

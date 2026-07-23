@@ -8,7 +8,7 @@ function UsedElectronics() {
   const [filterType, setFilterType] = useState('all');
   const [priceRange, setPriceRange] = useState('all');
 
-  // Get all used products (cameras and tripods)
+  // Get all used products (cameras and lenses)
   const usedProducts = useMemo(() => {
     return getAllProducts().filter(product => product.isUsed === true);
   }, []);
@@ -20,8 +20,8 @@ function UsedElectronics() {
     // Filter by type
     if (filterType === 'cameras') {
       results = results.filter(p => p.subcategory === 'used-cameras');
-    } else if (filterType === 'tripods') {
-      results = results.filter(p => p.subcategory === 'used-tripods');
+    } else if (filterType === 'lenses') {
+      results = results.filter(p => p.subcategory === 'used-lenses');
     }
 
     // Filter by price range
@@ -47,7 +47,7 @@ function UsedElectronics() {
         results.sort((a, b) => b.rating - a.rating);
         break;
       default:
-        // relevance - mix cameras and tripods
+        // relevance - mix cameras and lenses
         break;
     }
 
@@ -55,7 +55,7 @@ function UsedElectronics() {
   }, [usedProducts, filterType, priceRange, sortBy]);
 
   const cameraCount = usedProducts.filter(p => p.subcategory === 'used-cameras').length;
-  const tripodCount = usedProducts.filter(p => p.subcategory === 'used-tripods').length;
+  const lensCount = usedProducts.filter(p => p.subcategory === 'used-lenses').length;
 
   return (
     <div className="used-electronics">
@@ -64,8 +64,8 @@ function UsedElectronics() {
         <div className="container">
           <div className="hero-content">
             <span className="hero-badge">PRE-OWNED</span>
-            <h1>White Bloom Essentials</h1>
-            <p>Quality cameras and tripods at unbeatable prices. All items tested and verified.</p>
+            <h1>Used Photography Demo Catalog</h1>
+            <p>Generic camera and lens listings labeled to match their shared demonstration images.</p>
           </div>
         </div>
       </div>
@@ -98,10 +98,10 @@ function UsedElectronics() {
                 <input
                   type="radio"
                   name="type"
-                  checked={filterType === 'tripods'}
-                  onChange={() => setFilterType('tripods')}
+                  checked={filterType === 'lenses'}
+                  onChange={() => setFilterType('lenses')}
                 />
-                <span>Tripods ({tripodCount})</span>
+                <span>Camera Lenses ({lensCount})</span>
               </label>
             </div>
           </div>
@@ -160,18 +160,13 @@ function UsedElectronics() {
           <div className="filter-section">
             <h3>Brands Available</h3>
             <div className="brand-tags">
-              <span className="brand-tag">Sony</span>
-              <span className="brand-tag">Canon</span>
-              <span className="brand-tag">Nikon</span>
-              <span className="brand-tag">Fujifilm</span>
-              <span className="brand-tag">Panasonic</span>
-              <span className="brand-tag">Manfrotto</span>
-              <span className="brand-tag">Vanguard</span>
+              <span className="brand-tag">Various Cameras</span>
+              <span className="brand-tag">Sigma Lenses</span>
             </div>
           </div>
 
           <div className="quality-guarantee">
-            <div className="guarantee-icon">✓</div>
+            <div className="guarantee-icon">âœ“</div>
             <div className="guarantee-text">
               <strong>Quality Guaranteed</strong>
               <p>All items inspected and tested before listing</p>
@@ -186,7 +181,7 @@ function UsedElectronics() {
               <span className="results-count">{filteredProducts.length} items</span>
               {filterType !== 'all' && (
                 <span className="results-filter">
-                  in {filterType === 'cameras' ? 'Digital Cameras' : 'Tripods'}
+                  in {filterType === 'cameras' ? 'Digital Cameras' : 'Camera Lenses'}
                 </span>
               )}
             </div>
@@ -220,3 +215,4 @@ function UsedElectronics() {
 }
 
 export default UsedElectronics;
+

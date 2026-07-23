@@ -14,13 +14,13 @@ function ProductCard({ product, compact = false }) {
     const hasHalfStar = rating % 1 >= 0.5;
 
     for (let i = 0; i < fullStars; i++) {
-      stars.push(<span key={i} className="star filled">★</span>);
+      stars.push(<span key={i} className="star filled">â˜…</span>);
     }
     if (hasHalfStar) {
-      stars.push(<span key="half" className="star half">★</span>);
+      stars.push(<span key="half" className="star half">â˜…</span>);
     }
     for (let i = stars.length; i < 5; i++) {
-      stars.push(<span key={i} className="star empty">☆</span>);
+      stars.push(<span key={i} className="star empty">â˜†</span>);
     }
     return stars;
   };
@@ -83,14 +83,14 @@ function ProductCard({ product, compact = false }) {
 
         {product.prime && (
           <div className="product-card__prime">
-            <span className="prime-badge">White Bloom</span>
+            <span className="prime-badge">Shadow Syndicate</span>
             <span className="prime-delivery">Dispatch in {product.deliveryDays <= 2 ? '24 hours' : `${product.deliveryDays} days`}</span>
           </div>
         )}
 
         {product.freeShipping && !product.prime && (
           <div className="product-card__shipping">
-            White Bloom shipping
+            Shadow Syndicate shipping
           </div>
         )}
       </div>
@@ -99,3 +99,4 @@ function ProductCard({ product, compact = false }) {
 }
 
 export default ProductCard;
+

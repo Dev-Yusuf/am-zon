@@ -30,7 +30,7 @@ function Cart() {
     return (
       <div className="cart container">
         <div className="cart__empty card">
-          <h2>Your White Bloom cart is empty</h2>
+          <h2>Your Shadow Syndicate cart is empty</h2>
           <p>Shop the fresh picks</p>
           <Link to="/" className="btn btn-amazon">Continue Shopping</Link>
         </div>
@@ -82,7 +82,7 @@ function Cart() {
 
                   {item.prime && (
                     <div className="cart-item__prime">
-                      <span className="prime-badge">White Bloom</span>
+                      <span className="prime-badge">Shadow Syndicate</span>
                       <span>Priority Dispatch</span>
                     </div>
                   )}
@@ -190,7 +190,7 @@ function Cart() {
         <aside className="cart__sidebar">
           <div className="cart__checkout card">
             <div className="checkout__free-shipping">
-              ✓ Your order qualifies for White Bloom shipping
+              âœ“ Your order qualifies for Shadow Syndicate shipping
             </div>
             
             <div className="checkout__subtotal">
@@ -215,7 +215,7 @@ function Cart() {
             </button>
 
             <div className="checkout__btc-note">
-              <span className="btc-icon">₿</span>
+              <span className="btc-icon">â‚¿</span>
               <span>Pay with Bitcoin at checkout</span>
             </div>
           </div>
@@ -226,3 +226,4 @@ function Cart() {
 }
 
 export default Cart;
+

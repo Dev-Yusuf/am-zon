@@ -62,16 +62,16 @@ function SignUp() {
     <div className="auth">
       <div className="auth__container">
         <Link to="/" className="auth__logo">
-          <span className="auth__logo-text">White Bloom</span>
+          <span className="auth__logo-text">Shadow Syndicate</span>
           <span className="auth__logo-suffix">.clone</span>
         </Link>
 
         <div className="auth__box card">
-          <h1>Create your White Bloom account</h1>
+          <h1>Create your Shadow Syndicate account</h1>
 
           {error && (
             <div className="auth__error">
-              <span className="error-icon">⚠️</span>
+              <span className="error-icon">âš ï¸</span>
               <span>{error}</span>
             </div>
           )}
@@ -109,7 +109,7 @@ function SignUp() {
                 onChange={(e) => setPassword(e.target.value)}
               />
               <span className="form-hint">
-                <span className="hint-icon">ℹ️</span>
+                <span className="hint-icon">â„¹ï¸</span>
                 Passwords must be at least 6 characters.
               </span>
             </div>
@@ -129,12 +129,12 @@ function SignUp() {
               className="btn btn-amazon auth__submit"
               disabled={loading}
             >
-              {loading ? 'Creating account...' : 'Create your White Bloom account'}
+              {loading ? 'Creating account...' : 'Create your Shadow Syndicate account'}
             </button>
           </form>
 
           <p className="auth__terms">
-            By creating an account, you agree to White Bloom's{' '}
+            By creating an account, you agree to Shadow Syndicate's{' '}
             <Link to="/conditions">Conditions of Use</Link> and{' '}
             <Link to="/privacy">Privacy Notice</Link>.
           </p>
@@ -144,7 +144,7 @@ function SignUp() {
           </div>
 
           <Link to="/signin" className="auth__signin-link">
-            Sign in →
+            Sign in â†’
           </Link>
         </div>
       </div>
@@ -155,10 +155,11 @@ function SignUp() {
           <Link to="/privacy">Privacy Notice</Link>
           <Link to="/help">Help</Link>
         </div>
-        <p>© 2024, White Bloom</p>
+        <p>Â© 2024, Shadow Syndicate</p>
       </div>
     </div>
   );
 }
 
 export default SignUp;
+

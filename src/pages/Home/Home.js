@@ -15,46 +15,46 @@ function Home() {
       {/* Hero Banner */}
       <div className="home__hero">
         <div className="home__hero-content">
-          <h1>Welcome to White Bloom</h1>
-          <p>Discover elevated cannabis, wellness, and lifestyle essentials curated for modern routines.</p>
-          <Link to="/search" className="btn btn-amazon">Shop the collection</Link>
+          <h1>Welcome to Shadow Syndicate</h1>
+          <p>A fictional marketplace interface for design and safety education.</p>
+          <Link to="/search" className="btn btn-amazon">Browse the demo catalog</Link>
         </div>
       </div>
 
       <section className="home__awareness container" aria-labelledby="awareness-title">
         <img
           src="/images/substance-awareness-exhibit.jpeg"
-          alt="Luxury cannabis lifestyle storefront"
+          alt="Controlled-substance awareness exhibit"
           className="home__awareness-image"
         />
         <div className="home__awareness-content">
-          <span className="home__awareness-label">CURATED WELLNESS COLLECTION</span>
-          <h2 id="awareness-title">White Bloom Essentials</h2>
+          <span className="home__awareness-label">EDUCATIONAL EXHIBIT â€” NOT FOR SALE</span>
+          <h2 id="awareness-title">Content-Safety Demonstration</h2>
           <p>
-            Discover premium flower, refined accessories, and everyday wellness picks in a clean,
-            elevated retail experience.
+            This image demonstrates risk labeling and content moderation. It is not a
+            product listing and cannot be added to the cart or purchased.
           </p>
         </div>
       </section>
 
-      {/* White Bloom Brand Banner */}
+      {/* Used Electronics Banner */}
       <div className="home__used-banner container">
-        <Link to="/search" className="used-banner">
-          <div className="used-banner__badge">CURATED PICKS</div>
+        <Link to="/used-electronics" className="used-banner">
+          <div className="used-banner__badge">DEMO CATALOG</div>
           <div className="used-banner__content">
-            <div className="used-banner__icon">🌿</div>
+            <div className="used-banner__icon">ðŸŒ¿</div>
             <div className="used-banner__text">
-              <h2>White Bloom Essentials</h2>
-              <p>Elevated routines, refined accessories, and wellness favorites for the modern lifestyle.</p>
-              <span className="used-banner__cta">Shop the collection →</span>
+              <h2>Used Photography Equipment</h2>
+              <p>Browse sample camera and lens listings with corrected generic labels.</p>
+              <span className="used-banner__cta">Explore demo listings â†’</span>
             </div>
           </div>
           <div className="used-banner__items">
-            <span>Wellness Rituals</span>
-            <span>•</span>
-            <span>Refined Accessories</span>
-            <span>•</span>
-            <span>Premium Essentials</span>
+            <span>Cameras</span>
+            <span>â€¢</span>
+            <span>Lenses</span>
+            <span>â€¢</span>
+            <span>Accessories</span>
           </div>
         </Link>
       </div>
@@ -170,3 +170,4 @@ function Home() {
 }
 
 export default Home;
+

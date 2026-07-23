@@ -47,10 +47,10 @@ function Footer() {
 
       <div className="footer__bottom">
         <div className="footer__logo">
-          <span className="footer__logo-text">White Bloom</span>
+          <span className="footer__logo-text">Shadow Syndicate</span>
         </div>
         <p className="footer__copyright">
-          © 2026 White Bloom.
+          Â© 2026 Shadow Syndicate.
         </p>
       </div>
     </footer>
@@ -58,3 +58,4 @@ function Footer() {
 }
 
 export default Footer;
+

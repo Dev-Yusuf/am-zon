@@ -1,17 +1,17 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useCart } from '../../context/CartContext';
-import { createOrder, BTC_WALLET_ADDRESS } from '../../lib/orderService';
+import { createOrder } from '../../lib/orderService';
 import { formatPrice } from '../../lib/productService';
 import './Checkout.css';
 
 function Checkout() {
   const navigate = useNavigate();
   const { items, getCartTotal } = useCart();
-  const total = getCartTotal();
-  const { whole, fraction } = formatPrice(total);
+  const subtotal = getCartTotal();
+  const { whole, fraction } = formatPrice(subtotal);
 
-  const handleContinueToPayment = () => {
+  const startSimulation = () => {
     if (items.length === 0) return;
 
     const order = createOrder({
@@ -22,24 +22,12 @@ function Checkout() {
         price: item.price,
         image: item.images?.[0] || ''
       })),
-      totals: {
-        subtotal: total,
-        shipping: 0,
-        total
-      },
+      totals: { subtotal, shipping: 0, tax: 0, total: subtotal },
       shippingAddress: {
-        name: 'Guest Customer',
-        street: '1 White Bloom Way',
-        city: 'Los Angeles',
-        state: 'CA',
-        zip: '90001',
-        country: 'United States'
+        name: 'Demo Customer', street: 'Not collected', city: 'Simulation',
+        state: 'Demo', zip: '00000', country: 'Educational demo'
       },
-      payment: {
-        method: 'btc',
-        walletAddress: BTC_WALLET_ADDRESS,
-        status: 'pending'
-      }
+      payment: { method: 'simulated_btc', status: 'demo_pending' }
     });
 
     navigate(`/payment?orderId=${order.id}`);
@@ -49,48 +37,36 @@ function Checkout() {
     <div className="checkout container">
       <div className="checkout__section active">
         <div className="section__header">
-          <span className="section__number">!</span>
-          <h1>Checkout</h1>
+          <span className="section__number">1</span>
+          <h1>Review simulated order</h1>
         </div>
-
         <div className="section__content">
+          <div className="payment-notice">
+            <p><strong>Educational simulation:</strong> No shipping details, wallet address, funds, or real order will be submitted.</p>
+          </div>
           {items.length === 0 ? (
             <div className="checkout__empty">
-              <p>Your cart is empty. Add a product to continue.</p>
+              <p>Your demo cart is empty.</p>
               <Link to="/" className="btn btn-amazon">Return home</Link>
             </div>
           ) : (
             <>
               <div className="checkout__summary card">
-                <h2>Order summary</h2>
-
+                <h2>Demo order summary</h2>
                 {items.map((item, index) => (
                   <div key={`${item.id}-${index}`} className="checkout__item">
                     <span>{item.title}</span>
-                    <span>
-                      <span className="price-symbol">$</span>
-                      <span className="price-whole">{formatPrice(item.price).whole}</span>
-                      <span className="price-fraction">{formatPrice(item.price).fraction}</span>
-                      <span className="checkout__qty"> x {item.quantity}</span>
-                    </span>
+                    <span>${(item.price * item.quantity).toFixed(2)} <span className="checkout__qty">({item.quantity})</span></span>
                   </div>
                 ))}
-
                 <div className="checkout__total">
-                  <span>Total</span>
-                  <span>
-                    <span className="price-symbol">$</span>
-                    <span className="price-whole">{whole}</span>
-                    <span className="price-fraction">{fraction}</span>
-                  </span>
+                  <span>Simulated total</span>
+                  <span><span className="price-symbol">$</span><span className="price-whole">{whole}</span><span className="price-fraction">{fraction}</span></span>
                 </div>
               </div>
-
               <div className="checkout__actions">
-                <button className="btn btn-amazon" onClick={handleContinueToPayment}>
-                  Continue to Bitcoin payment
-                </button>
-                <Link to="/" className="btn btn-secondary">Return home</Link>
+                <button className="btn btn-amazon" onClick={startSimulation}>Continue to payment simulation</button>
+                <Link to="/cart" className="btn btn-secondary">Edit demo cart</Link>
               </div>
             </>
           )}

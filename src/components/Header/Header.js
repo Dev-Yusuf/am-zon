@@ -32,11 +32,11 @@ function Header() {
       {/* Top Navigation */}
       <div className="header__top">
         <Link to="/" className="header__logo">
-          <span className="header__logo-text">White Bloom</span>
+          <span className="header__logo-text">Shadow Syndicate</span>
         </Link>
 
         <div className="header__delivery">
-          <span className="header__delivery-icon">📍</span>
+          <span className="header__delivery-icon">ðŸ“</span>
           <div className="header__delivery-text">
             <span className="header__delivery-label">Deliver to</span>
             <span className="header__delivery-location">United States</span>
@@ -56,12 +56,12 @@ function Header() {
           <input
             type="text"
             className="header__search-input"
-            placeholder="Search White Bloom"
+            placeholder="Search Shadow Syndicate"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
           />
           <button type="submit" className="header__search-button">
-            🔍
+            ðŸ”
           </button>
         </form>
 
@@ -80,7 +80,7 @@ function Header() {
 
           <Link to="/cart" className="header__cart">
             <div className="header__cart-icon">
-              🛒
+              ðŸ›’
               <span className="header__cart-count">{getCartCount()}</span>
             </div>
             <span className="header__cart-text">Cart</span>
@@ -92,7 +92,7 @@ function Header() {
       <nav className="header__bottom">
         <div className="header__bottom-content">
           <button className="header__menu-button">
-            ☰ All
+            â˜° All
           </button>
           <div className="header__links">
             <Link to="/search?category=fashion" className="header__link">Fashion</Link>
@@ -109,3 +109,4 @@ function Header() {
 }
 
 export default Header;
+

@@ -1,6 +1,6 @@
-{
-  "short_name": "White Bloom",
-  "name": "White Bloom Storefront",
+﻿{
+  "short_name": "Shadow Syndicate",
+  "name": "Shadow Syndicate Educational Demo",
   "icons": [
     {
       "src": "favicon.ico",
@@ -13,3 +13,4 @@
   "theme_color": "#1f6b43",
   "background_color": "#ffffff"
 }
+

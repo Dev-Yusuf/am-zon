@@ -196,8 +196,8 @@ function ProductDetail() {
 
             {product.prime && (
               <div className="buybox__prime">
-                <span className="prime-badge">White Bloom</span>
-                <span className="prime-text">Dispatch in 24 hours</span>
+                <span className="prime-badge">Demo listing</span>
+                <span className="prime-text">No real dispatch</span>
               </div>
             )}
 
@@ -210,7 +210,7 @@ function ProductDetail() {
                     : `in ${product.deliveryDays} days`
                 }
               </span>
-              <span className="delivery-text">Order within 12 hrs</span>
+              <span className="delivery-text">Illustrative delivery estimate</span>
             </div>
 
             <div className="buybox__stock">
@@ -254,7 +254,7 @@ function ProductDetail() {
             <div className="buybox__info">
               <div className="buybox__info-row">
                 <span>Ships from</span>
-                <span>White Bloom</span>
+                <span>Demo Fulfillment</span>
               </div>
               <div className="buybox__info-row">
                 <span>Fulfilled by</span>
@@ -262,7 +262,7 @@ function ProductDetail() {
               </div>
               <div className="buybox__info-row">
                 <span>Payment</span>
-                <span className="btc-payment">BTC Accepted ₿</span>
+                <span className="btc-payment">Simulation only</span>
               </div>
             </div>
           </div>

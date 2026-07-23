@@ -80,7 +80,7 @@ function SearchResults() {
             className="sidebar-close"
             onClick={() => setShowFilters(false)}
           >
-            ✕
+            âœ•
           </button>
         </div>
 
@@ -136,7 +136,7 @@ function SearchResults() {
                   <span className="stars">
                     {Array(5).fill(0).map((_, i) => (
                       <span key={i} className={i < rating ? 'filled' : ''}>
-                        {i < rating ? '★' : '☆'}
+                        {i < rating ? 'â˜…' : 'â˜†'}
                       </span>
                     ))}
                   </span>
@@ -197,7 +197,7 @@ function SearchResults() {
               checked={prime}
               onChange={(e) => updateFilter('prime', e.target.checked ? 'true' : '')}
             />
-            <span className="prime-badge">White Bloom</span>
+            <span className="prime-badge">Shadow Syndicate</span>
             <span>Priority Dispatch</span>
           </label>
         </div>
@@ -229,7 +229,7 @@ function SearchResults() {
               className="filter-toggle-btn"
               onClick={() => setShowFilters(true)}
             >
-              ☰ Filters
+              â˜° Filters
             </button>
             {query && (
               <span className="search-results__query">
@@ -296,3 +296,4 @@ function SearchResults() {
 }
 
 export default SearchResults;
+

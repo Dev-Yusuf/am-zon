@@ -51,16 +51,16 @@ function SignIn() {
     <div className="auth">
       <div className="auth__container">
         <Link to="/" className="auth__logo">
-          <span className="auth__logo-text">White Bloom</span>
+          <span className="auth__logo-text">Shadow Syndicate</span>
           <span className="auth__logo-suffix">.clone</span>
         </Link>
 
         <div className="auth__box card">
-          <h1>Sign in to White Bloom</h1>
+          <h1>Sign in to Shadow Syndicate</h1>
 
           {error && (
             <div className="auth__error">
-              <span className="error-icon">⚠️</span>
+              <span className="error-icon">âš ï¸</span>
               <span>{error}</span>
             </div>
           )}
@@ -97,7 +97,7 @@ function SignIn() {
           </form>
 
           <p className="auth__terms">
-            By continuing, you agree to White Bloom's{' '}
+            By continuing, you agree to Shadow Syndicate's{' '}
             <Link to="/conditions">Conditions of Use</Link> and{' '}
             <Link to="/privacy">Privacy Notice</Link>.
           </p>
@@ -108,11 +108,11 @@ function SignIn() {
         </div>
 
         <div className="auth__divider">
-          <span>New to White Bloom?</span>
+          <span>New to Shadow Syndicate?</span>
         </div>
 
         <Link to="/signup" className="btn btn-secondary auth__create">
-          Create your White Bloom account
+          Create your Shadow Syndicate account
         </Link>
       </div>
 
@@ -122,10 +122,11 @@ function SignIn() {
           <Link to="/privacy">Privacy Notice</Link>
           <Link to="/help">Help</Link>
         </div>
-        <p>© 2024, White Bloom</p>
+        <p>Â© 2024, Shadow Syndicate</p>
       </div>
     </div>
   );
 }
 
 export default SignIn;
+
